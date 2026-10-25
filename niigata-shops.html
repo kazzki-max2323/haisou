@@ -36,7 +36,8 @@ header p{margin:6px 0 0;color:var(--muted);max-width:70ch}
 .bars{display:grid;gap:8px}
 .bar{display:grid;grid-template-columns:72px minmax(0,1fr) 92px;align-items:center;gap:10px;font-size:13px}
 .track{height:14px;background:var(--bg);border-radius:4px;overflow:hidden}
-.fill{height:100%;border-radius:4px}
+.fill{height:100%;border-radius:4px;transition:width .25s ease}
+.scope{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:11px;font-weight:600;vertical-align:2px}
 .bar .n{font-family:var(--f-num);font-variant-numeric:tabular-nums;color:var(--muted);text-align:right;font-size:12px}
 .note{color:var(--muted);font-size:12px;margin:10px 0 0}
 .controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
@@ -101,7 +102,8 @@ footer{color:var(--muted);font-size:12px;display:grid;gap:4px}
     <p class="note">区ごとの件数：<span id="wardline"></span></p>
   </div>
   <div class="panel">
-    <h2>配送会社の記載状況（配送会社がわかった<span id="b-total"></span>件中）</h2>
+    <h2>配送会社の記載状況<span class="scope" id="b-scope" hidden>絞り込み中</span></h2>
+    <p class="note" id="b-sub" style="margin:-4px 0 10px"></p>
     <div class="bars" id="bars"></div>
     <p class="note">1つのお店が複数の配送会社を書いていることが多いため、合計は100%を超えます。楽天標準の「郵便局受取・コンビニ受取」は数えていません。</p>
   </div>
@@ -186,16 +188,33 @@ const wo = Object.fromEntries(WARDS.map((w,i)=>[w,i]));
   document.getElementById("f-unknown").textContent=total-known.length;
   document.getElementById("f-cool").textContent=ROWS.filter(r=>r.cool).length;
   document.getElementById("wardline").textContent=WARDS.map(w=>w+" "+ROWS.filter(r=>r.ward===w).length).join("・");
-  const bt=known.length; document.getElementById("b-total").textContent=bt;
+})();
+const BAR_CARRIERS=CARRIERS.filter(c=>ROWS.some(r=>r.carriers.includes(c)));
+const barEls={};
+(function(){
   const bars=document.getElementById("bars");
-  CARRIERS.forEach(c=>{
-    const any=known.filter(r=>r.carriers.includes(c)).length;
-    if(!any) return;
+  BAR_CARRIERS.forEach(c=>{
     const el=document.createElement("div"); el.className="bar";
-    el.innerHTML=`<span>${c}</span><div class="track" role="img" aria-label="${c}：記載あり${any}件"><div class="fill" style="width:${any/bt*100}%;background:${COLOR[c]}"></div></div><span class="n">${any}件（${Math.round(any/bt*100)}%）</span>`;
-    bars.appendChild(el);
+    el.innerHTML=`<span>${c}</span><div class="track" role="img"><div class="fill" style="width:0;background:${COLOR[c]}"></div></div><span class="n"></span>`;
+    bars.appendChild(el); barEls[c]=el;
   });
 })();
+function drawBars(rows){
+  const known=rows.filter(r=>r.carriers.length), bt=known.length;
+  const filtered=rows.length!==ROWS.length;
+  document.getElementById("b-scope").hidden=!filtered;
+  document.getElementById("b-sub").textContent=filtered
+    ? `表示中の${rows.length}件のうち、配送会社がわかった${bt}件（記載なし・非公開 ${rows.length-bt}件）`
+    : `全${rows.length}件のうち、配送会社がわかった${bt}件（記載なし・非公開 ${rows.length-bt}件）`;
+  BAR_CARRIERS.forEach(c=>{
+    const any=known.filter(r=>r.carriers.includes(c)).length, pct=bt?any/bt*100:0;
+    const el=barEls[c];
+    el.querySelector(".fill").style.width=pct+"%";
+    el.querySelector(".track").setAttribute("aria-label",`${c}：記載あり${any}件`);
+    el.querySelector(".n").textContent=`${any}件（${Math.round(pct)}%）`;
+    el.style.opacity=any?1:.45;
+  });
+}
 
 const wardSel=document.getElementById("ward");
 WARDS.forEach(w=>{const o=document.createElement("option");o.value=w;o.textContent=`${w}（${ROWS.filter(r=>r.ward===w).length}）`;wardSel.appendChild(o);});
@@ -247,6 +266,7 @@ function render(){
   current=sorted(ROWS.filter(match));
   const tb=document.getElementById("tb"); tb.textContent="";
   document.getElementById("count").textContent=`${current.length}件を表示中（全${ROWS.length}件）`;
+  drawBars(current);
   if(!current.length){const tr=document.createElement("tr");tr.innerHTML='<td colspan="7" class="empty">条件に合う事業者がありません。絞り込みをゆるめてみてください。</td>';tb.appendChild(tr);return;}
   let lastWard=null; const grouped=state.sort.k==="addr";
   current.forEach(r=>{
