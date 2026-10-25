@@ -1,0 +1,4333 @@
+[
+ {
+  "id": "yokogoshi",
+  "shop": "越後雪国地酒連峰（新潟店）",
+  "company": "株式会社ハシモト",
+  "addr": "新潟県新潟市江南区横越中央7丁目737-6",
+  "city": "新潟市江南区",
+  "tel": "025-383-2855",
+  "carriers": [
+   "ヤマト",
+   "日本郵便",
+   "佐川",
+   "西濃"
+  ],
+  "kanto": "699円",
+  "mail": true,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://www.rakuten.co.jp/yokogoshi/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/yokogoshi/",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=AK2ACI1100TSD",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "okomestore",
+  "shop": "新潟発こだわり専門店 北越農林",
+  "company": "株式会社北越農林",
+  "addr": "新潟県新潟市中央区南長潟８番１２号",
+  "city": "新潟市中央区",
+  "tel": "0120-286-400",
+  "carriers": [
+   "日本郵便",
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "1020円",
+  "mail": true,
+  "cool": true,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/okomestore/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "imagi",
+  "shop": "お米プラザ新潟［楽天市場店］",
+  "company": "株式会社今議商店",
+  "addr": "新潟県長岡市高見町3024",
+  "city": "長岡市",
+  "tel": "0258-24-2455",
+  "carriers": [
+   "日本郵便",
+   "ヤマト"
+  ],
+  "kanto": "750円",
+  "mail": true,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/imagi/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/imagi/",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A251CP4Q3IFGML",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "takizawa",
+  "shop": "滝沢米穀店",
+  "company": "株式会社瀧澤",
+  "addr": "新潟県新潟市北区嘉山4-9-7",
+  "city": "新潟市北区",
+  "tel": "025-387-3501",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便"
+  ],
+  "kanto": "0円",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/takizawa/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/takizawakomeya/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "ocomeya3",
+  "shop": "越後の米穀商高田屋",
+  "company": "株式会社高田屋商店",
+  "addr": "新潟県長岡市宮内2丁目8番32号",
+  "city": "長岡市",
+  "tel": "070-9310-8628",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/ocomeya3/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/komeya/",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A278B2Y771V7F4",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "echigo-inahoya",
+  "shop": "越後の稲穂屋 楽天市場店",
+  "company": "株式会社細山商店",
+  "addr": "新潟県新潟市西蒲区大関９番地",
+  "city": "新潟市西蒲区",
+  "tel": "0120-781157",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便"
+  ],
+  "kanto": "630円",
+  "mail": true,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/echigo-inahoya/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/echigo-inahoya/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/45246033",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "echigo",
+  "shop": "越後銘門酒会 新潟県の酒とグルメ",
+  "company": "原商株式会社",
+  "addr": "新潟県長岡市大山 1-14-4",
+  "city": "長岡市",
+  "tel": "0258-27-3360",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://www.rakuten.co.jp/echigo/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "myoko-koide",
+  "shop": "こしひかりの郷 小出農場",
+  "company": "農業生産法人株式会社小出農場",
+  "addr": "新潟県妙高市大字関山１７６８－５",
+  "city": "妙高市",
+  "tel": "0255-82-2684",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/myoko-koide/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/kosihikari/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/36791121",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "sakesado",
+  "shop": "佐渡の地酒・北村酒店",
+  "company": "北村酒店",
+  "addr": "新潟県佐渡市相川２丁目４５",
+  "city": "佐渡市",
+  "tel": "0259-74-2256",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "980円",
+  "mail": false,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://www.rakuten.co.jp/sakesado/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "kikusui",
+  "shop": "菊水ショップかよいぐら楽天市場店",
+  "company": "菊水酒造株式会社",
+  "addr": "新潟県新発田市島潟750",
+  "city": "新発田市",
+  "tel": "0120-07-7796",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://www.rakuten.co.jp/kikusui/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "niigata",
+  "shop": "幻の酒",
+  "company": "株式会社十八",
+  "addr": "新潟県新潟市東区河渡庚296番地46",
+  "city": "新潟市東区",
+  "tel": "025-212-9290",
+  "carriers": [
+   "日本郵便",
+   "ヤマト"
+  ],
+  "kanto": "900円",
+  "mail": true,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://www.rakuten.co.jp/niigata/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/present/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/43250328",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "sake-asanoya",
+  "shop": "越後新潟 地酒のあさのや",
+  "company": "株式会社あさのや",
+  "addr": "新潟県燕市南１－１６－８",
+  "city": "燕市",
+  "tel": "0256-62-3707",
+  "carriers": [
+   "日本郵便",
+   "佐川",
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://www.rakuten.co.jp/sake-asanoya/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/sakeasanoya/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "takano-shuzo",
+  "shop": "越後酒蔵 高野酒造 楽天市場店",
+  "company": "高野酒造株式会社",
+  "addr": "新潟県新潟市西区木山24-1",
+  "city": "新潟市西区",
+  "tel": "025-239-2046",
+  "carriers": [
+   "ヤマト",
+   "日本郵便",
+   "佐川"
+  ],
+  "kanto": "1100円",
+  "mail": true,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://www.rakuten.co.jp/takano-shuzo/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/takano-shuzo-y/",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A2AXWAS1LWZH6K",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/40289796",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "noguchis",
+  "shop": "越後まんぷく堂",
+  "company": "株式会社のぐち",
+  "addr": "新潟県南魚沼郡湯沢町大字湯沢字中島川原1685",
+  "city": "南魚沼郡湯沢町",
+  "tel": "025-785-7111",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "950円",
+  "mail": true,
+  "cool": true,
+  "genre": "菓子・米菓",
+  "url": "https://www.rakuten.co.jp/noguchis/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/n-manpuku/",
+  "amz": "両方",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A3IAN8VRNW3Z1X",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "echigo-komesho",
+  "shop": "新潟米ご挨拶ギフト 越後のこめ匠",
+  "company": "株式会社三糧",
+  "addr": "新潟県新発田市城北町３－３－１３",
+  "city": "新発田市",
+  "tel": "0254-23-5670",
+  "carriers": [
+   "日本郵便",
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "820円",
+  "mail": true,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/echigo-komesho/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/39924855",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "auc-kuwahara",
+  "shop": "里山からの贈り物 桑原商店",
+  "company": "桑原商店",
+  "addr": "新潟県中魚沼郡津南町大字下船渡己3078-1",
+  "city": "中魚沼郡津南町",
+  "tel": "025-765-1552",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/auc-kuwahara/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/kuwaharasyoten/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "auc-kusanoya",
+  "shop": "謙信笹だんご本舗くさのや",
+  "company": "有限会社くさのや",
+  "addr": "新潟県上越市中央１－４－１",
+  "city": "上越市",
+  "tel": "025-543-5351",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "780円",
+  "mail": false,
+  "cool": false,
+  "genre": "菓子・米菓",
+  "url": "https://www.rakuten.co.jp/auc-kusanoya/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/kusanoya/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "cranes",
+  "shop": "キッチンクレインズ",
+  "company": "株式会社ツルマキ",
+  "addr": "新潟県燕市杣木1612番地",
+  "city": "燕市",
+  "tel": "0256-64-3551",
+  "carriers": [
+   "日本郵便",
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": false,
+  "genre": "キッチン・金物",
+  "url": "https://www.rakuten.co.jp/cranes/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "idea-happy-life",
+  "shop": "キッチンラボ 楽天市場店",
+  "company": "有限会社ナガオ",
+  "addr": "新潟県燕市物流センター２－１１",
+  "city": "燕市",
+  "tel": "090-3312-1943",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "620円",
+  "mail": true,
+  "cool": false,
+  "genre": "キッチン・金物",
+  "url": "https://www.rakuten.co.jp/idea-happy-life/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "arakinstore",
+  "shop": "あらきん商店",
+  "company": "株式会社あらきん",
+  "addr": "新潟県妙高市関川755-4",
+  "city": "妙高市",
+  "tel": "0255-86-2516",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便"
+  ],
+  "kanto": "900円",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/arakinstore/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/arakin/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "simomura-kihan",
+  "shop": "エルルショップ",
+  "company": "下村企販株式会社",
+  "addr": "新潟県燕市小池4803-4",
+  "city": "燕市",
+  "tel": "0256-64-5588",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "750円",
+  "mail": true,
+  "cool": false,
+  "genre": "キッチン・金物",
+  "url": "https://www.rakuten.co.jp/simomura-kihan/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/shimomurakihan/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/90948635",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "apron-niigata",
+  "shop": "お菓子材料と道具の店えぷろん",
+  "company": "株式会社えぷろん",
+  "addr": "新潟県新潟市中央区上大川前通七番町1239-1",
+  "city": "新潟市中央区",
+  "tel": "025-229-1642",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "700円",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/apron-niigata/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "smilezakka",
+  "shop": "アーネスト公式 楽天市場店",
+  "company": "アーネスト株式会社",
+  "addr": "新潟県三条市福島新田丁８５８",
+  "city": "三条市",
+  "tel": "0256-41-1010",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "880円",
+  "mail": true,
+  "cool": false,
+  "genre": "キッチン・金物",
+  "url": "https://www.rakuten.co.jp/smilezakka/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/sumairu-com/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "uonuma",
+  "shop": "魚沼の里 芳屋",
+  "company": "有限会社芳屋商店",
+  "addr": "新潟県十日町市山本８８０－１",
+  "city": "十日町市",
+  "tel": "0257-52-2448",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "900円",
+  "mail": false,
+  "cool": false,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/uonuma/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "kokouki",
+  "shop": "雑貨屋 ココウキ",
+  "company": "ウォーターベル株式会社",
+  "addr": "新潟県燕市吉田法花堂1887番地",
+  "city": "燕市",
+  "tel": "0256-78-8844",
+  "carriers": [
+   "佐川",
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://www.rakuten.co.jp/kokouki/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "oec-hoko",
+  "shop": "こめや丸七",
+  "company": "丸七商事株式会社",
+  "addr": "新潟県新潟市東区紫竹卸新町2011番地",
+  "city": "新潟市東区",
+  "tel": "025-275-7733",
+  "carriers": [
+   "佐川",
+   "日本郵便",
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/oec-hoko/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "kobari",
+  "shop": "小針水産",
+  "company": "株式会社小針水産",
+  "addr": "新潟県新潟市西区小針上山6-16",
+  "city": "新潟市西区",
+  "tel": "025-231-6923",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "1310円",
+  "mail": true,
+  "cool": true,
+  "genre": "水産",
+  "url": "https://www.rakuten.co.jp/kobari/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/kobari-kaniya/",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=AAOCL5UKRST21",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "katoseika",
+  "shop": "新潟米あられおかき 加藤製菓",
+  "company": "加藤製菓株式会社",
+  "addr": "新潟県長岡市宮内８－８－１８",
+  "city": "長岡市",
+  "tel": "0258-32-2374",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便"
+  ],
+  "kanto": "770円",
+  "mail": true,
+  "cool": false,
+  "genre": "菓子・米菓",
+  "url": "https://www.rakuten.co.jp/katoseika/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/katoseika/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "myokokogenbeer",
+  "shop": "妙高高原ビール 楽天市場店",
+  "company": "荒井アンドアソシエイツ株式会社",
+  "addr": "新潟県妙高市関川2452",
+  "city": "妙高市",
+  "tel": "0255862600",
+  "carriers": [
+   "佐川",
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "酒",
+  "url": "https://www.rakuten.co.jp/myokokogenbeer/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "okashi-saori",
+  "shop": "阿部幸製菓",
+  "company": "阿部幸製菓株式会社",
+  "addr": "新潟県小千谷市上ノ山４－８－１６",
+  "city": "小千谷市",
+  "tel": "0120-821230",
+  "carriers": [
+   "日本郵便",
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "0円",
+  "mail": true,
+  "cool": false,
+  "genre": "菓子・米菓",
+  "url": "https://www.rakuten.co.jp/okashi-saori/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "mail-bin",
+  "shop": "ワンダフルライフ",
+  "company": "有限会社クリスティ",
+  "addr": "新潟県胎内市つつじが丘下315-59",
+  "city": "胎内市",
+  "tel": "0254-43-5830",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "雑貨・その他",
+  "url": "https://www.rakuten.co.jp/mail-bin/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/themall/",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A33Q4S1E7NSCV3",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/42557789",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "yunotani",
+  "shop": "ゆのたに 楽天市場店",
+  "company": "株式会社ゆのたに",
+  "addr": "新潟県魚沼市宇津野５７－１",
+  "city": "魚沼市",
+  "tel": "025-793-7606",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/yunotani/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "auc-komekome",
+  "shop": "新潟米専門店 マイハート",
+  "company": "株式会社野上米穀",
+  "addr": "新潟県長岡市千手２－１０－２０",
+  "city": "長岡市",
+  "tel": "0258-32-0855",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "500円",
+  "mail": true,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/auc-komekome/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "uoya",
+  "shop": "越後村上うおや",
+  "company": "株式会社越後村上うおや",
+  "addr": "新潟県村上市大町4-3",
+  "city": "村上市",
+  "tel": "0254-52-3056",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "1180円",
+  "mail": false,
+  "cool": true,
+  "genre": "水産",
+  "url": "https://www.rakuten.co.jp/uoya/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/uoya/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/5350942",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "kaisenshokunin",
+  "shop": "鮭・イクラの専門店 永徳 鮭乃蔵",
+  "company": "株式会社永徳",
+  "addr": "新潟県村上市塩町4-5",
+  "city": "村上市",
+  "tel": "0254-52-6141",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "990円",
+  "mail": false,
+  "cool": true,
+  "genre": "水産",
+  "url": "https://www.rakuten.co.jp/kaisenshokunin/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/nagatoku/",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A18F269CIJCUSO",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "auc-niigatatakeuchi",
+  "shop": "干した鮭の専門店 新潟たけうち",
+  "company": "有限会社新潟たけうち",
+  "addr": "新潟県新潟市中央区柳島町１－２－４",
+  "city": "新潟市中央区",
+  "tel": "025-226-3705",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "1350円",
+  "mail": false,
+  "cool": false,
+  "genre": "水産",
+  "url": "https://www.rakuten.co.jp/auc-niigatatakeuchi/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/niigatatakeuchi/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "sasaki-shokuhin",
+  "shop": "鮭専門店佐々木食品",
+  "company": "有限会社佐々木食品",
+  "addr": "新潟県新発田市諏訪町3-3-14",
+  "city": "新発田市",
+  "tel": "0254222868",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "1500円",
+  "mail": true,
+  "cool": true,
+  "genre": "水産",
+  "url": "https://www.rakuten.co.jp/sasaki-shokuhin/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "auc-syokunosado",
+  "shop": "食の宝島佐渡 楽天市場店",
+  "company": "Ｃｒｅａｔｉｖｅ－ＳＤ株式会社",
+  "addr": "新潟県佐渡市新穂大野258",
+  "city": "佐渡市",
+  "tel": "0259-22-4012",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "810円",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/auc-syokunosado/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/48306820",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "niigata-kashikoubou",
+  "shop": "お菓子処菜菓亭",
+  "company": "株式会社いえい",
+  "addr": "新潟県新発田市本田3389",
+  "city": "新発田市",
+  "tel": "0120-888-041",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "1200円",
+  "mail": false,
+  "cool": true,
+  "genre": "菓子・米菓",
+  "url": "https://www.rakuten.co.jp/niigata-kashikoubou/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/niigata-kashikoubou/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "atechigo",
+  "shop": "あっとえちご",
+  "company": "株式会社Ｎクローバー",
+  "addr": "新潟県新潟市中央区女池上山3丁目13-10",
+  "city": "新潟市中央区",
+  "tel": "070-9201-1866",
+  "carriers": [
+   "日本郵便",
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "0円",
+  "mail": true,
+  "cool": false,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/atechigo/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "taueuta",
+  "shop": "新潟米問屋「たうえ唄」",
+  "company": "株式会社新潟農商",
+  "addr": "新潟県新潟市秋葉区川口５８０－１７",
+  "city": "新潟市秋葉区",
+  "tel": "0120-188-826",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "0円",
+  "mail": true,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/taueuta/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/niigata-nosho/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "sekikawa-marushige",
+  "shop": "えちごせきかわ丸重商店",
+  "company": "有限会社丸重商店",
+  "addr": "新潟県岩船郡関川村大字上関１２７８－８",
+  "city": "岩船郡関川村",
+  "tel": "0254641036",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便"
+  ],
+  "kanto": "980円",
+  "mail": false,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://www.rakuten.co.jp/sekikawa-marushige/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/marusige/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "komeyakatagiri",
+  "shop": "米屋かたぎり",
+  "company": "株式会社かたぎり",
+  "addr": "新潟県阿賀野市中央町１－１３－４０",
+  "city": "阿賀野市",
+  "tel": "0250631110",
+  "carriers": [
+   "ヤマト",
+   "日本郵便",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/komeyakatagiri/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/komeyakatagiri/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/95186997",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "okome-no-takasaka",
+  "shop": "お米のたかさか",
+  "company": "株式会社お米のたかさか",
+  "addr": "新潟県長岡市新産２－１０－１",
+  "city": "長岡市",
+  "tel": "0258472984",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/okome-no-takasaka/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A137ENBCITIE4E",
+  "src2": "楽天+Amazon",
+  "malls": [
+   "楽天",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "niigata025",
+  "shop": "ニイガタ０２５ 楽天市場店",
+  "company": "株式会社ニイガタ０２５",
+  "addr": "新潟県新潟市中央区弁天3-3-5-203",
+  "city": "新潟市中央区",
+  "tel": "0252476820",
+  "carriers": [
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/niigata025/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "moto7mita",
+  "shop": "海鮮問屋 見田元七商店",
+  "company": "株式会社見田元七商店",
+  "addr": "新潟県新潟市江南区西町3-3-37",
+  "city": "新潟市江南区",
+  "tel": "0253817855",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "1265円",
+  "mail": true,
+  "cool": true,
+  "genre": "水産",
+  "url": "https://www.rakuten.co.jp/moto7mita/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/moto7mita/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "niigatameisyuoukoku",
+  "shop": "日本酒と焼酎のお店 新潟銘酒王国",
+  "company": "株式会社新潟銘酒王国",
+  "addr": "新潟県新潟市江南区城山１丁目２－６０",
+  "city": "新潟市江南区",
+  "tel": "0252787879",
+  "carriers": [
+   "日本郵便",
+   "ヤマト"
+  ],
+  "kanto": "800円",
+  "mail": false,
+  "cool": false,
+  "genre": "酒",
+  "url": "https://www.rakuten.co.jp/niigatameisyuoukoku/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "uonumakawaji1906",
+  "shop": "魚沼の米屋 かわじ",
+  "company": "株式会社川治食品販売",
+  "addr": "新潟県十日町市山本町３－１７２－１",
+  "city": "十日町市",
+  "tel": "0257522347",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/uonumakawaji1906/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "niigata-shop",
+  "shop": "新潟県公式ショップ 新潟直送計画",
+  "company": "株式会社クーネルワーク",
+  "addr": "新潟県新潟市西区小針３－３７－３０ 樋口ビル１５号",
+  "city": "新潟市西区",
+  "tel": "025-378-0560",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/niigata-shop/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/niigata-shop/",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A3JUK4DBST3PH1",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "amal-shop",
+  "shop": "日本海珍味店さとも屋",
+  "company": "株式会社アマールトレードグループ",
+  "addr": "新潟県上越市上名柄731-1",
+  "city": "上越市",
+  "tel": "025-566-4986",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "600円",
+  "mail": true,
+  "cool": true,
+  "genre": "水産",
+  "url": "https://www.rakuten.co.jp/amal-shop/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "eurpmask-directshop",
+  "shop": "ＬｉｎｅＲ",
+  "company": "株式会社ＳＥＥＫ",
+  "addr": "新潟県新潟市中央区天神1丁目1番地 プラーカ3",
+  "city": "新潟市中央区",
+  "tel": "0252788948",
+  "carriers": [
+   "ヤマト",
+   "日本郵便",
+   "佐川"
+  ],
+  "kanto": "500円",
+  "mail": true,
+  "cool": true,
+  "genre": "雑貨・その他",
+  "url": "https://www.rakuten.co.jp/eurpmask-directshop/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/41830022",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "odakesyokuhin",
+  "shop": "新潟名物専門店 小竹食品",
+  "company": "株式会社小竹食品",
+  "addr": "新潟県柏崎市大和町１－１２",
+  "city": "柏崎市",
+  "tel": "0257222288",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "0円",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/odakesyokuhin/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/odakesyokuhin/",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A34PS8WXXQ7C83",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon",
+   "au PAY"
+  ],
+  "wurl": "https://wowma.jp/user/60124018",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "sugarmt",
+  "shop": "Sugar Mountain 楽天市場店",
+  "company": "Ｓｕｇａｒ Ｍｏｕｎｔａｉｎ Ｊａｐａｎ合同会社",
+  "addr": "新潟県新潟市中央区美咲町１－２６－１６",
+  "city": "新潟市中央区",
+  "tel": "07092570465",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "雑貨・その他",
+  "url": "https://www.rakuten.co.jp/sugarmt/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A1V1VWBCQX9SDM",
+  "src2": "楽天+Amazon",
+  "malls": [
+   "楽天",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "yohysay",
+  "shop": "エービーシーストアー",
+  "company": "株式会社ＡＢＣストアー",
+  "addr": "新潟県南魚沼市関８３８－２",
+  "city": "南魚沼市",
+  "tel": "0257834680",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/yohysay/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "omochi",
+  "shop": "笹団子、米、餅通販 新潟森林農園",
+  "company": "有限会社新潟森林農園",
+  "addr": "新潟県新潟市秋葉区福島６９",
+  "city": "新潟市秋葉区",
+  "tel": "0250243216",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "菓子・米菓",
+  "url": "https://www.rakuten.co.jp/omochi/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "nagaokashi",
+  "shop": "長岡市公式ショップ丸ごとながおか",
+  "company": "原商株式会社",
+  "addr": "新潟県長岡市大山１－１４－４",
+  "city": "長岡市",
+  "tel": "0258273377",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "800円",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/nagaokashi/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/echigo/",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A28JZ61KCL7IC3",
+  "src2": "両方+Amazon",
+  "malls": [
+   "楽天",
+   "Yahoo!",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "echigoyonezo",
+  "shop": "越後米蔵商店",
+  "company": "堀敬商事株式会社",
+  "addr": "新潟県新潟市中央区米山2-7-20ITPケヤキビル2-5F",
+  "city": "新潟市中央区",
+  "tel": "0800-800-5859",
+  "carriers": [
+   "日本郵便",
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/echigoyonezo/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A2UZSG4AXC29WJ",
+  "src2": "楽天+Amazon",
+  "malls": [
+   "楽天",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "shimomura-kogyo",
+  "shop": "フルルショップ",
+  "company": "下村工業株式会社",
+  "addr": "新潟県三条市西大崎１－１６－２",
+  "city": "三条市",
+  "tel": "0256383311",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": false,
+  "genre": "キッチン・金物",
+  "url": "https://www.rakuten.co.jp/shimomura-kogyo/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "tastejapan",
+  "shop": "テイストジャパン",
+  "company": "—",
+  "addr": "新潟県三条市大島960",
+  "city": "三条市",
+  "tel": "0256-64-8463",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "雑貨・その他",
+  "url": "https://www.rakuten.co.jp/tastejapan/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=ADC2OVNZ42NY2",
+  "src2": "楽天+Amazon",
+  "malls": [
+   "楽天",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "uomizushima",
+  "shop": "日本海の幸 新潟・魚水島",
+  "company": "株式会社魚水島",
+  "addr": "新潟県新発田市御幸町1-1-7",
+  "city": "新発田市",
+  "tel": "0254261234",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "水産",
+  "url": "https://www.rakuten.co.jp/uomizushima/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A23V8M8OQTOTB3",
+  "src2": "楽天+Amazon",
+  "malls": [
+   "楽天",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "vt-store",
+  "shop": "いただきプラザ楽天市場店",
+  "company": "株式会社ヴァーテックス",
+  "addr": "新潟県新潟市江南区両川２－３９２７－１５",
+  "city": "新潟市江南区",
+  "tel": "0252825521",
+  "carriers": [
+   "日本郵便",
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "770円",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/vt-store/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/vt-web/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "nakayosimeat",
+  "shop": "いぶしの館 なかよしミート",
+  "company": "有限会社なかよしミート",
+  "addr": "新潟県長岡市上除町乙４６",
+  "city": "長岡市",
+  "tel": "0258474314",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/nakayosimeat/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "gift-tanabe",
+  "shop": "真心ギフト工房タナベ楽天市場店",
+  "company": "株式会社タナベ",
+  "addr": "新潟県柏崎市半田１－３－１",
+  "city": "柏崎市",
+  "tel": "0257244670",
+  "carriers": [
+   "佐川",
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/gift-tanabe/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "tsunan-kanko-bussankan",
+  "shop": "津南観光物産館 楽天市場店",
+  "company": "有限会社フジミヤ",
+  "addr": "新潟県中魚沼郡津南町大字芦ケ崎乙２０３",
+  "city": "中魚沼郡津南町",
+  "tel": "0257652823",
+  "carriers": [
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://www.rakuten.co.jp/tsunan-kanko-bussankan/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/fuzi-tokusann/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "niigata-rice",
+  "shop": "新潟のお米専門店 いなほんぽ",
+  "company": "株式会社新潟ケンベイ",
+  "addr": "新潟県新潟市江南区亀田工業団地2-3-2",
+  "city": "新潟市江南区",
+  "tel": "0120-971-823",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/niigata-rice/",
+  "src": "両方",
+  "yurl": "https://store.shopping.yahoo.co.jp/kenbeishop/",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天",
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "fukuhachi",
+  "shop": "お米のギフト 福八",
+  "company": "株式会社八",
+  "addr": "新潟県柏崎市松美1丁目11-51",
+  "city": "柏崎市",
+  "tel": "070-8933-3863",
+  "carriers": [
+   "ヤマト",
+   "日本郵便",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "米",
+  "url": "https://www.rakuten.co.jp/fukuhachi/",
+  "src": "楽天",
+  "yurl": "",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "楽天"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-niigatatatumiya",
+  "shop": "新潟辰巳屋(たつみや)",
+  "company": "有限会社高覚商店",
+  "addr": "新潟県見附市今町1-5-20",
+  "city": "見附市",
+  "tel": "0258-66-2058",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "800円",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/niigatatatumiya/",
+  "yurl": "https://store.shopping.yahoo.co.jp/niigatatatumiya/",
+  "src": "Yahoo!",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A2DK5L92VJALCP",
+  "src2": "Yahoo!+Amazon",
+  "malls": [
+   "Yahoo!",
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-komeyaookura",
+  "shop": "米屋おおくら",
+  "company": "株式会社大倉",
+  "addr": "新潟県長岡市来迎寺甲2605",
+  "city": "長岡市",
+  "tel": "0258-92-2033",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/komeyaookura/",
+  "yurl": "https://store.shopping.yahoo.co.jp/komeyaookura/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-nou-senbei",
+  "shop": "米農家直送・あぐ里能生",
+  "company": "農業生産法人株式会社あぐ里能生",
+  "addr": "新潟県糸魚川市大字槙123-1",
+  "city": "糸魚川市",
+  "tel": "025-568-2780",
+  "carriers": [
+   "日本郵便",
+   "佐川",
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": false,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/nou-senbei/",
+  "yurl": "https://store.shopping.yahoo.co.jp/nou-senbei/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-bison",
+  "shop": "キレイと便利Ya",
+  "company": "サカエ・コーポレーション",
+  "addr": "新潟県三条市尾崎341-5",
+  "city": "三条市",
+  "tel": "0256-45-5480",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://store.shopping.yahoo.co.jp/bison/",
+  "yurl": "https://store.shopping.yahoo.co.jp/bison/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-muranokajiya",
+  "shop": "村の鍛冶屋",
+  "company": "株式会社山谷産業",
+  "addr": "新潟県三条市北入蔵2-2-57",
+  "city": "三条市",
+  "tel": "0256-38-5635",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便",
+   "福山"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "キッチン・金物",
+  "url": "https://store.shopping.yahoo.co.jp/muranokajiya/",
+  "yurl": "https://store.shopping.yahoo.co.jp/muranokajiya/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-honmaruya",
+  "shop": "酒の本丸屋Yahoo!店",
+  "company": "有限会社新保屋酒店",
+  "addr": "新潟県小千谷市千谷甲1957番地",
+  "city": "小千谷市",
+  "tel": "070-3977-0076",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "酒",
+  "url": "https://store.shopping.yahoo.co.jp/honmaruya/",
+  "yurl": "https://store.shopping.yahoo.co.jp/honmaruya/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-wakamatsuya",
+  "shop": "雪国の酒屋 わかまつや",
+  "company": "有限会社若松屋商店",
+  "addr": "新潟県南魚沼市長崎385甲子",
+  "city": "南魚沼市",
+  "tel": "025-782-0503",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://store.shopping.yahoo.co.jp/wakamatsuya/",
+  "yurl": "https://store.shopping.yahoo.co.jp/wakamatsuya/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-osaka-saketen",
+  "shop": "大坂酒店",
+  "company": "大坂酒店",
+  "addr": "新潟県新潟市中央区東堀通5番町425番地",
+  "city": "新潟市中央区",
+  "tel": "025-222-7877",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://store.shopping.yahoo.co.jp/osaka-saketen/",
+  "yurl": "https://store.shopping.yahoo.co.jp/osaka-saketen/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-taiseiya",
+  "shop": "新潟の地酒 たいせいや",
+  "company": "有限会社たいせいや",
+  "addr": "新潟県南魚沼市六日町2332番地2",
+  "city": "南魚沼市",
+  "tel": "025-772-3864",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "800円",
+  "mail": false,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://store.shopping.yahoo.co.jp/taiseiya/",
+  "yurl": "https://store.shopping.yahoo.co.jp/taiseiya/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-mimasuya",
+  "shop": "新潟銘酒の地酒屋",
+  "company": "有限会社見桝屋",
+  "addr": "新潟県三条市西潟30番1号",
+  "city": "三条市",
+  "tel": "0256-38-5757",
+  "carriers": [
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://store.shopping.yahoo.co.jp/mimasuya/",
+  "yurl": "https://store.shopping.yahoo.co.jp/mimasuya/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-kosendo-uonuma",
+  "shop": "孝泉堂ヤフーショップ",
+  "company": "株式会社孝泉堂製菓",
+  "addr": "新潟県南魚沼市六日町1055-4",
+  "city": "南魚沼市",
+  "tel": "025-772-2281",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "菓子・米菓",
+  "url": "https://store.shopping.yahoo.co.jp/kosendo-uonuma/",
+  "yurl": "https://store.shopping.yahoo.co.jp/kosendo-uonuma/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-nagaoka-kojimaya",
+  "shop": "長岡小嶋屋ヤフー店",
+  "company": "株式会社長岡小嶋屋",
+  "addr": "新潟県長岡市殿町2-2-9",
+  "city": "長岡市",
+  "tel": "0258-46-9222",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://store.shopping.yahoo.co.jp/nagaoka-kojimaya/",
+  "yurl": "https://store.shopping.yahoo.co.jp/nagaoka-kojimaya/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-b-bselect",
+  "shop": "B・Bセレクト",
+  "company": "馬場長金物株式会社",
+  "addr": "新潟県三条市北新保2-7-5",
+  "city": "三条市",
+  "tel": "0256-47-5071",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": false,
+  "genre": "キッチン・金物",
+  "url": "https://store.shopping.yahoo.co.jp/b-bselect/",
+  "yurl": "https://store.shopping.yahoo.co.jp/b-bselect/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-joy-island",
+  "shop": "JOYアイランド",
+  "company": "株式会社矢嶋屋",
+  "addr": "新潟県三条市柳川新田1048番地",
+  "city": "三条市",
+  "tel": "0256-64-8546",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便",
+   "西濃",
+   "福山"
+  ],
+  "kanto": "820円",
+  "mail": true,
+  "cool": false,
+  "genre": "キッチン・金物",
+  "url": "https://store.shopping.yahoo.co.jp/joy-island/",
+  "yurl": "https://store.shopping.yahoo.co.jp/joy-island/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-ysfarm",
+  "shop": "Ys farm",
+  "company": "株式会社ワイズファーム",
+  "addr": "新潟県上越市大和4-12-27",
+  "city": "上越市",
+  "tel": "080-1223-2322",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/ysfarm/",
+  "yurl": "https://store.shopping.yahoo.co.jp/ysfarm/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-uchiyama-nosan",
+  "shop": "新潟コシヒカリ直売店 内山農産",
+  "company": "有限会社内山農産",
+  "addr": "新潟県上越市大字小泉543",
+  "city": "上越市",
+  "tel": "025-520-8415",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/uchiyama-nosan/",
+  "yurl": "https://store.shopping.yahoo.co.jp/uchiyama-nosan/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-komenoya",
+  "shop": "コメノヤ新潟",
+  "company": "株式会社堀商店",
+  "addr": "新潟県新潟市東区卸新町3丁目61番地",
+  "city": "新潟市東区",
+  "tel": "025-272-6800",
+  "carriers": [
+   "日本郵便",
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/komenoya/",
+  "yurl": "https://store.shopping.yahoo.co.jp/komenoya/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-nishizawach",
+  "shop": "おつまみ 珍味 ニシザワチャンネル",
+  "company": "有限会社西沢珍味販売",
+  "addr": "新潟県上越市新保古新田535",
+  "city": "上越市",
+  "tel": "025-524-9818",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "水産",
+  "url": "https://store.shopping.yahoo.co.jp/nishizawach/",
+  "yurl": "https://store.shopping.yahoo.co.jp/nishizawach/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-duskinyamatoya",
+  "shop": "yamatoya",
+  "company": "株式会社大和屋",
+  "addr": "新潟県糸魚川市寺町3-10-25",
+  "city": "糸魚川市",
+  "tel": "025-552-0018",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://store.shopping.yahoo.co.jp/duskinyamatoya/",
+  "yurl": "https://store.shopping.yahoo.co.jp/duskinyamatoya/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-shikisoukai",
+  "shop": "四季壮快 ヤフー店",
+  "company": "オギハラ工業株式会社",
+  "addr": "新潟県上越市新保古新田639番地",
+  "city": "上越市",
+  "tel": "025-530-7895",
+  "carriers": [],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://store.shopping.yahoo.co.jp/shikisoukai/",
+  "yurl": "https://store.shopping.yahoo.co.jp/shikisoukai/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-sy-sukedati",
+  "shop": "助太刀サブ Yahoo!ショップ",
+  "company": "サンキープ株式会社",
+  "addr": "新潟県三条市東光寺3689-1",
+  "city": "三条市",
+  "tel": "050-1720-6744",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://store.shopping.yahoo.co.jp/sy-sukedati/",
+  "yurl": "https://store.shopping.yahoo.co.jp/sy-sukedati/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-yamasokikaku",
+  "shop": "YAMASO企画",
+  "company": "YAMASO企画",
+  "addr": "新潟県佐渡市羽茂本郷500-4",
+  "city": "佐渡市",
+  "tel": "090-3473-5914",
+  "carriers": [
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/yamasokikaku/",
+  "yurl": "https://store.shopping.yahoo.co.jp/yamasokikaku/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-kumazou2",
+  "shop": "ごようきき2クマぞう",
+  "company": "株式会社ひらせいホームセンター",
+  "addr": "新潟県新潟市西区小針西2-7-32",
+  "city": "新潟市西区",
+  "tel": "025-383-4161",
+  "carriers": [
+   "日本郵便",
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": true,
+  "genre": "雑貨・その他",
+  "url": "https://store.shopping.yahoo.co.jp/kumazou2/",
+  "yurl": "https://store.shopping.yahoo.co.jp/kumazou2/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-oisiiokomekometouji",
+  "shop": "新潟のお米屋米杜氏",
+  "company": "株式会社壱成",
+  "addr": "新潟県阿賀野市かがやき2番16号",
+  "city": "阿賀野市",
+  "tel": "0250-47-8436",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/oisiiokomekometouji/",
+  "yurl": "https://store.shopping.yahoo.co.jp/oisiiokomekometouji/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-kgtomioka",
+  "shop": "産直ギフト とみおか",
+  "company": "よつばフード株式会社",
+  "addr": "新潟県新潟市西蒲区富岡1194",
+  "city": "新潟市西蒲区",
+  "tel": "0256-82-4817",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "550円",
+  "mail": true,
+  "cool": true,
+  "genre": "食品・ギフト",
+  "url": "https://store.shopping.yahoo.co.jp/kgtomioka/",
+  "yurl": "https://store.shopping.yahoo.co.jp/kgtomioka/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-awaduya-store",
+  "shop": "あわづやヤフーショッピング店",
+  "company": "有限会社あわづや",
+  "addr": "新潟県見附市本町2-3-4",
+  "city": "見附市",
+  "tel": "0258-62-0577",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "菓子・米菓",
+  "url": "https://store.shopping.yahoo.co.jp/awaduya-store/",
+  "yurl": "https://store.shopping.yahoo.co.jp/awaduya-store/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-tokusanuonuma",
+  "shop": "特産魚沼",
+  "company": "特産魚沼株式会社",
+  "addr": "新潟県魚沼市吉水880",
+  "city": "魚沼市",
+  "tel": "025-794-3698",
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/tokusanuonuma/",
+  "yurl": "https://store.shopping.yahoo.co.jp/tokusanuonuma/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-tsunan-oosakaya",
+  "shop": "津南大阪屋商店",
+  "company": "株式会社大阪屋商店",
+  "addr": "新潟県中魚沼郡津南町大字船渡丁2631",
+  "city": "中魚沼郡津南町",
+  "tel": "025-765-2525",
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/tsunan-oosakaya/",
+  "yurl": "https://store.shopping.yahoo.co.jp/tsunan-oosakaya/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-noukigu",
+  "shop": "農機具ショップ",
+  "company": "名地農機株式会社",
+  "addr": "新潟県中魚沼郡津南町大字下船渡丁2452番地",
+  "city": "中魚沼郡津南町",
+  "tel": "0258-32-4406",
+  "carriers": [
+   "ヤマト",
+   "佐川",
+   "日本郵便",
+   "西濃"
+  ],
+  "kanto": "",
+  "mail": true,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://store.shopping.yahoo.co.jp/noukigu/",
+  "yurl": "https://store.shopping.yahoo.co.jp/noukigu/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-uonuma-okomeichiba",
+  "shop": "魚沼お米市場",
+  "company": "株式会社小出魚市場",
+  "addr": "新潟県魚沼市四日町字破間向1204番地1",
+  "city": "魚沼市",
+  "tel": "025-792-0451",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://store.shopping.yahoo.co.jp/uonuma-okomeichiba/",
+  "yurl": "https://store.shopping.yahoo.co.jp/uonuma-okomeichiba/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "y-niigata-jizake",
+  "shop": "新潟地酒 専門店",
+  "company": "株式会社港屋酒店",
+  "addr": "新潟県見附市新町1-11-47",
+  "city": "見附市",
+  "tel": "0258-62-0170",
+  "carriers": [
+   "ヤマト",
+   "日本郵便"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "genre": "酒",
+  "url": "https://store.shopping.yahoo.co.jp/niigata-jizake/",
+  "yurl": "https://store.shopping.yahoo.co.jp/niigata-jizake/",
+  "src": "Yahoo!",
+  "amz": "",
+  "aurl": "",
+  "malls": [
+   "Yahoo!"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A2L1RR1X3E1NC2",
+  "shop": "旨い米なら「これこれ」",
+  "company": "株式会社これこれ",
+  "addr": "新潟県南魚沼市宇津野新田486-1",
+  "city": "南魚沼市",
+  "tel": "0362064800",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.amazon.co.jp/sp?seller=A2L1RR1X3E1NC2",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "Amazon発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A2L1RR1X3E1NC2",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A1YGPITPGPQDUC",
+  "shop": "お米ギフトのマイライフ",
+  "company": "マイライフ株式会社",
+  "addr": "新潟県長岡市北荷頃4975乙",
+  "city": "長岡市",
+  "tel": "0120-053-257",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.amazon.co.jp/sp?seller=A1YGPITPGPQDUC",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A1YGPITPGPQDUC",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A12JZ3R8VBQ32M",
+  "shop": "熊谷農園",
+  "company": "個人事業主",
+  "addr": "新潟県新潟市江南区",
+  "city": "新潟市江南区",
+  "tel": "",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.amazon.co.jp/sp?seller=A12JZ3R8VBQ32M",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A12JZ3R8VBQ32M",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-AR8YDRK07E22D",
+  "shop": "農家のお米屋",
+  "company": "有限会社長岡農産米穀",
+  "addr": "新潟県長岡市滝谷町1258番地",
+  "city": "長岡市",
+  "tel": "0258222596",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.amazon.co.jp/sp?seller=AR8YDRK07E22D",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=AR8YDRK07E22D",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A1DOZL5KCU30OC",
+  "shop": "新潟上越 蔵元直送地酒の店 かじや",
+  "company": "株式会社かじや",
+  "addr": "新潟県上越市三和区下中1502",
+  "city": "上越市",
+  "tel": "0120-270-245",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "酒",
+  "url": "https://www.amazon.co.jp/sp?seller=A1DOZL5KCU30OC",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "Amazon発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A1DOZL5KCU30OC",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A30AOZ6XFNHQQN",
+  "shop": "翼酒店",
+  "company": "個人事業主",
+  "addr": "新潟県柏崎市",
+  "city": "柏崎市",
+  "tel": "",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "酒",
+  "url": "https://www.amazon.co.jp/sp?seller=A30AOZ6XFNHQQN",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A30AOZ6XFNHQQN",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A6NGNDLZRD0UP",
+  "shop": "LAJI shop",
+  "company": "個人事業主",
+  "addr": "新潟県新潟市中央区",
+  "city": "新潟市中央区",
+  "tel": "",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://www.amazon.co.jp/sp?seller=A6NGNDLZRD0UP",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A6NGNDLZRD0UP",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A1J9FB48WK1TZW",
+  "shop": "むらけん酒店",
+  "company": "個人事業主",
+  "addr": "新潟県十日町市",
+  "city": "十日町市",
+  "tel": "",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "酒",
+  "url": "https://www.amazon.co.jp/sp?seller=A1J9FB48WK1TZW",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A1J9FB48WK1TZW",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A3AIT7SXP0QJ49",
+  "shop": "ポップゾーン",
+  "company": "株式会社山松商店",
+  "addr": "新潟県十日町市水口沢42番地7",
+  "city": "十日町市",
+  "tel": "03-6264-8629",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://www.amazon.co.jp/sp?seller=A3AIT7SXP0QJ49",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "Amazon発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A3AIT7SXP0QJ49",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A19TN1Y1AU1W0B",
+  "shop": "アミノクポーチ",
+  "company": "個人事業主",
+  "addr": "新潟県新潟市東区",
+  "city": "新潟市東区",
+  "tel": "",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://www.amazon.co.jp/sp?seller=A19TN1Y1AU1W0B",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A19TN1Y1AU1W0B",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A1N62XCK0HV5IZ",
+  "shop": "Cherry Well Shop",
+  "company": "個人事業主",
+  "addr": "新潟県新発田市",
+  "city": "新発田市",
+  "tel": "",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://www.amazon.co.jp/sp?seller=A1N62XCK0HV5IZ",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A1N62XCK0HV5IZ",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A3TT69DD3MTD97",
+  "shop": "越後味のれん",
+  "company": "株式会社新潟東洋",
+  "addr": "新潟県南魚沼郡湯沢町湯沢1491-1",
+  "city": "南魚沼郡湯沢町",
+  "tel": "025-784-1040",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "食品・ギフト",
+  "url": "https://www.amazon.co.jp/sp?seller=A3TT69DD3MTD97",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A3TT69DD3MTD97",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A3PXZU9A7PH2I4",
+  "shop": "Love cherry ショップ",
+  "company": "個人事業主",
+  "addr": "新潟県糸魚川市",
+  "city": "糸魚川市",
+  "tel": "",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://www.amazon.co.jp/sp?seller=A3PXZU9A7PH2I4",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A3PXZU9A7PH2I4",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A258WJE36KOSZU",
+  "shop": "アルジェライフ",
+  "company": "株式会社高木屋",
+  "addr": "新潟県南魚沼市麻衣子992",
+  "city": "南魚沼市",
+  "tel": "0257837011",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://www.amazon.co.jp/sp?seller=A258WJE36KOSZU",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A258WJE36KOSZU",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A2DMSA1ST9K47D",
+  "shop": "あきはストア",
+  "company": "個人事業主",
+  "addr": "新潟県新潟市西区",
+  "city": "新潟市西区",
+  "tel": "",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://www.amazon.co.jp/sp?seller=A2DMSA1ST9K47D",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "両方",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A2DMSA1ST9K47D",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A20QCFDJFAZT97",
+  "shop": "Tiny Crescent Shop",
+  "company": "個人事業主",
+  "addr": "新潟県長岡市",
+  "city": "長岡市",
+  "tel": "",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "雑貨・その他",
+  "url": "https://www.amazon.co.jp/sp?seller=A20QCFDJFAZT97",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "自社発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A20QCFDJFAZT97",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "id": "a-A21S1DMFBA9W2K",
+  "shop": "お米場 田心 ≪越後ファーム≫",
+  "company": "越後ファーム株式会社",
+  "addr": "新潟県東蒲原郡阿賀町野村1751-1",
+  "city": "東蒲原郡阿賀町",
+  "tel": "0335271788",
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "genre": "米",
+  "url": "https://www.amazon.co.jp/sp?seller=A21S1DMFBA9W2K",
+  "yurl": "",
+  "src": "Amazon",
+  "amz": "Amazon発送",
+  "aurl": "https://www.amazon.co.jp/sp?seller=A21S1DMFBA9W2K",
+  "malls": [
+   "Amazon"
+  ],
+  "wurl": "",
+  "surl": "",
+  "cnote": ""
+ },
+ {
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "https://wowma.jp/user/5895091",
+  "surl": "",
+  "cnote": "",
+  "tel": "025-255-7167",
+  "id": "w-5895091",
+  "shop": "新潟おこめ市場",
+  "company": "有限会社星山米店",
+  "addr": "新潟県新潟市北区下大谷内378-57",
+  "city": "新潟市北区",
+  "genre": "米",
+  "url": "https://wowma.jp/user/5895091",
+  "src": "au PAY",
+  "malls": [
+   "au PAY"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "https://wowma.jp/user/44082616",
+  "surl": "",
+  "cnote": "記載なし",
+  "tel": "",
+  "id": "w-44082616",
+  "shop": "エコー米穀",
+  "company": "個人事業主",
+  "addr": "新潟県南魚沼市",
+  "city": "南魚沼市",
+  "genre": "米",
+  "url": "https://wowma.jp/user/44082616",
+  "src": "au PAY",
+  "malls": [
+   "au PAY"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "https://wowma.jp/user/47405582",
+  "surl": "",
+  "cnote": "記載なし",
+  "tel": "024-983-7170",
+  "id": "w-47405582",
+  "shop": "産直越後屋",
+  "company": "株式会社サンプラクト",
+  "addr": "新潟県南魚沼郡湯沢町神立279-2-302",
+  "city": "南魚沼郡湯沢町",
+  "genre": "米",
+  "url": "https://wowma.jp/user/47405582",
+  "src": "au PAY",
+  "malls": [
+   "au PAY"
+  ]
+ },
+ {
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "1210円",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://www.imayotsukasa.com/",
+  "cnote": "",
+  "tel": "",
+  "id": "s-0",
+  "shop": "今代司酒造",
+  "company": "今代司酒造株式会社",
+  "addr": "新潟県新潟市中央区鏡が岡1番1号",
+  "city": "新潟市中央区",
+  "genre": "酒",
+  "url": "https://www.imayotsukasa.com/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://www.asahi-shuzo-online.jp/",
+  "cnote": "",
+  "tel": "",
+  "id": "s-1",
+  "shop": "朝日酒造（久保田）",
+  "company": "朝日酒造株式会社",
+  "addr": "新潟県長岡市朝日880-1",
+  "city": "長岡市",
+  "genre": "酒",
+  "url": "https://www.asahi-shuzo-online.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "790円",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://ec-hakkaisan.com/",
+  "cnote": "",
+  "tel": "",
+  "id": "s-2",
+  "shop": "八海山オンラインストア",
+  "company": "八海醸造株式会社",
+  "addr": "新潟県南魚沼市",
+  "city": "南魚沼市",
+  "genre": "酒",
+  "url": "https://ec-hakkaisan.com/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [
+   "佐川",
+   "ヤマト"
+  ],
+  "kanto": "1030円",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://sake-yoshinogawa.shop/",
+  "cnote": "",
+  "tel": "",
+  "id": "s-3",
+  "shop": "吉乃川",
+  "company": "吉乃川株式会社",
+  "addr": "新潟県長岡市摂田屋4丁目8番12号",
+  "city": "長岡市",
+  "genre": "酒",
+  "url": "https://sake-yoshinogawa.shop/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "550円〜",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://koshinokanbai.co.jp/",
+  "cnote": "記載なし",
+  "tel": "025-276-2028",
+  "id": "s-4",
+  "shop": "越乃寒梅（石本酒造）",
+  "company": "石本酒造株式会社",
+  "addr": "新潟県新潟市江南区北山847-1",
+  "city": "新潟市江南区",
+  "genre": "酒",
+  "url": "https://koshinokanbai.co.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "800円",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://www.kiminoi-shop.com/",
+  "cnote": "",
+  "tel": "",
+  "id": "s-5",
+  "shop": "君の井酒造",
+  "company": "君の井酒造株式会社",
+  "addr": "新潟県妙高市",
+  "city": "妙高市",
+  "genre": "酒",
+  "url": "https://www.kiminoi-shop.com/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "880円",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://tenryohai.co.jp/",
+  "cnote": "",
+  "tel": "",
+  "id": "s-6",
+  "shop": "天領盃酒造",
+  "company": "天領盃酒造株式会社",
+  "addr": "新潟県佐渡市加茂歌代458",
+  "city": "佐渡市",
+  "genre": "酒",
+  "url": "https://tenryohai.co.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://shop.fujinoi-sake.jp/",
+  "cnote": "記載なし",
+  "tel": "",
+  "id": "s-7",
+  "shop": "ふじの井酒造",
+  "company": "ふじの井酒造株式会社",
+  "addr": "新潟県新発田市藤塚浜1335",
+  "city": "新発田市",
+  "genre": "酒",
+  "url": "https://shop.fujinoi-sake.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://shop.takarayama-brewery.co.jp/",
+  "cnote": "記載なし",
+  "tel": "",
+  "id": "s-8",
+  "shop": "たからやま醸造",
+  "company": "たからやま醸造株式会社",
+  "addr": "新潟県新潟市西蒲区石瀬1380",
+  "city": "新潟市西蒲区",
+  "genre": "酒",
+  "url": "https://shop.takarayama-brewery.co.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [
+   "ヤマト",
+   "佐川"
+  ],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://fukugao.shop-pro.jp/",
+  "cnote": "",
+  "tel": "0256-33-0123",
+  "id": "s-9",
+  "shop": "福顔酒造",
+  "company": "福顔酒造株式会社",
+  "addr": "新潟県三条市林町1-5-38",
+  "city": "三条市",
+  "genre": "酒",
+  "url": "https://fukugao.shop-pro.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [
+   "佐川"
+  ],
+  "kanto": "1000円（税抜）",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://ofuku-shuzo.shop-pro.jp/",
+  "cnote": "",
+  "tel": "0258-22-0086",
+  "id": "s-10",
+  "shop": "お福酒造",
+  "company": "お福酒造株式会社",
+  "addr": "新潟県長岡市横枕町606番地",
+  "city": "長岡市",
+  "genre": "酒",
+  "url": "https://ofuku-shuzo.shop-pro.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "880円",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://sekkobai.shop-pro.jp/",
+  "cnote": "",
+  "tel": "0258-32-0270",
+  "id": "s-11",
+  "shop": "長谷川酒造",
+  "company": "長谷川酒造株式会社",
+  "addr": "新潟県長岡市摂田屋2丁目7番28号",
+  "city": "長岡市",
+  "genre": "酒",
+  "url": "https://sekkobai.shop-pro.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "880円",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://takanoi-shuzou.shop-pro.jp/",
+  "cnote": "",
+  "tel": "0258-83-3450",
+  "id": "s-12",
+  "shop": "高の井酒造",
+  "company": "高の井酒造株式会社",
+  "addr": "新潟県小千谷市東栄3丁目7番67号",
+  "city": "小千谷市",
+  "genre": "酒",
+  "url": "https://takanoi-shuzou.shop-pro.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [
+   "ヤマト"
+  ],
+  "kanto": "800円",
+  "mail": false,
+  "cool": true,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://naebasan.shop-pro.jp/",
+  "cnote": "",
+  "tel": "025-765-2011",
+  "id": "s-13",
+  "shop": "苗場酒造",
+  "company": "苗場酒造株式会社",
+  "addr": "新潟県中魚沼郡津南町大字下船渡戊555",
+  "city": "中魚沼郡津南町",
+  "genre": "酒",
+  "url": "https://naebasan.shop-pro.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://sasaiwai.theshop.jp/",
+  "cnote": "記載なし",
+  "tel": "0256-72-3982",
+  "id": "s-14",
+  "shop": "笹祝酒造",
+  "company": "笹祝酒造株式会社",
+  "addr": "新潟県新潟市西蒲区松野尾3249",
+  "city": "新潟市西蒲区",
+  "genre": "酒",
+  "url": "https://sasaiwai.theshop.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://www.taiyo-sake.co.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-0",
+  "shop": "大洋酒造",
+  "company": "—",
+  "addr": "新潟県村上市",
+  "city": "村上市",
+  "genre": "酒",
+  "url": "https://www.taiyo-sake.co.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://www.aumont-shuzo.shop/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-1",
+  "shop": "王紋酒造",
+  "company": "—",
+  "addr": "新潟県新発田市",
+  "city": "新発田市",
+  "genre": "酒",
+  "url": "https://www.aumont-shuzo.shop/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://echigozakurashuzo.stores.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-2",
+  "shop": "越後桜酒造",
+  "company": "—",
+  "addr": "新潟県阿賀野市",
+  "city": "阿賀野市",
+  "genre": "酒",
+  "url": "https://echigozakurashuzo.stores.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://minehaku.base.shop/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-3",
+  "shop": "峰乃白梅酒造",
+  "company": "—",
+  "addr": "新潟県新潟市西蒲区",
+  "city": "新潟市西蒲区",
+  "genre": "酒",
+  "url": "https://minehaku.base.shop/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://yukinomaboroshi.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-4",
+  "shop": "朝妻酒造",
+  "company": "—",
+  "addr": "新潟県新潟市西蒲区",
+  "city": "新潟市西蒲区",
+  "genre": "酒",
+  "url": "https://yukinomaboroshi.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://kinshihai.theshop.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-5",
+  "shop": "金鵄盃酒造",
+  "company": "—",
+  "addr": "新潟県五泉市",
+  "city": "五泉市",
+  "genre": "酒",
+  "url": "https://kinshihai.theshop.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://yukitsubakishuzo.stores.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-6",
+  "shop": "雪椿酒造",
+  "company": "—",
+  "addr": "新潟県加茂市",
+  "city": "加茂市",
+  "genre": "酒",
+  "url": "https://yukitsubakishuzo.stores.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://kirinzan.official.ec/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-7",
+  "shop": "麒麟山酒造",
+  "company": "—",
+  "addr": "新潟県東蒲原郡阿賀町",
+  "city": "東蒲原郡阿賀町",
+  "genre": "酒",
+  "url": "https://kirinzan.official.ec/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://yahikonosake.theshop.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-8",
+  "shop": "弥彦酒造",
+  "company": "—",
+  "addr": "新潟県西蒲原郡弥彦村",
+  "city": "西蒲原郡弥彦村",
+  "genre": "酒",
+  "url": "https://yahikonosake.theshop.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://nakagawa-shuzo.com/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-9",
+  "shop": "中川酒造",
+  "company": "—",
+  "addr": "新潟県長岡市",
+  "city": "長岡市",
+  "genre": "酒",
+  "url": "https://nakagawa-shuzo.com/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://koshimeijo.stores.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-10",
+  "shop": "越銘醸",
+  "company": "—",
+  "addr": "新潟県長岡市",
+  "city": "長岡市",
+  "genre": "酒",
+  "url": "https://koshimeijo.stores.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://tochikuraya.base.shop/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-11",
+  "shop": "栃倉酒造",
+  "company": "—",
+  "addr": "新潟県長岡市",
+  "city": "長岡市",
+  "genre": "酒",
+  "url": "https://tochikuraya.base.shop/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://tsudumi-maitsuru.stores.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-12",
+  "shop": "恩田酒造",
+  "company": "—",
+  "addr": "新潟県長岡市",
+  "city": "長岡市",
+  "genre": "酒",
+  "url": "https://tsudumi-maitsuru.stores.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "http://shop.yukikura.com/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-13",
+  "shop": "玉川酒造",
+  "company": "—",
+  "addr": "新潟県魚沼市",
+  "city": "魚沼市",
+  "genre": "酒",
+  "url": "http://shop.yukikura.com/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://shop.niigata-meijo.com/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-14",
+  "shop": "新潟銘醸",
+  "company": "—",
+  "addr": "新潟県小千谷市",
+  "city": "小千谷市",
+  "genre": "酒",
+  "url": "https://shop.niigata-meijo.com/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://aokishuzo.stores.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-15",
+  "shop": "青木酒造",
+  "company": "—",
+  "addr": "新潟県南魚沼市",
+  "city": "南魚沼市",
+  "genre": "酒",
+  "url": "https://aokishuzo.stores.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://www.jozen.co.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-16",
+  "shop": "白瀧酒造",
+  "company": "—",
+  "addr": "新潟県南魚沼郡湯沢町",
+  "city": "南魚沼郡湯沢町",
+  "genre": "酒",
+  "url": "https://www.jozen.co.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://himenoi.buyshop.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-17",
+  "shop": "石塚酒造",
+  "company": "—",
+  "addr": "新潟県柏崎市",
+  "city": "柏崎市",
+  "genre": "酒",
+  "url": "https://himenoi.buyshop.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://tsunan-sake.stores.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-18",
+  "shop": "津南醸造",
+  "company": "—",
+  "addr": "新潟県中魚沼郡津南町",
+  "city": "中魚沼郡津南町",
+  "genre": "酒",
+  "url": "https://tsunan-sake.stores.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://noutaka.raku-uru.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-19",
+  "shop": "田中酒造（能鷹）",
+  "company": "—",
+  "addr": "新潟県上越市",
+  "city": "上越市",
+  "genre": "酒",
+  "url": "https://noutaka.raku-uru.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://shop.sakekaika.co.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-20",
+  "shop": "新潟第一酒造",
+  "company": "—",
+  "addr": "新潟県上越市",
+  "city": "上越市",
+  "genre": "酒",
+  "url": "https://shop.sakekaika.co.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://joetsu-shuzo.shop/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-21",
+  "shop": "上越酒造",
+  "company": "—",
+  "addr": "新潟県上越市",
+  "city": "上越市",
+  "genre": "酒",
+  "url": "https://joetsu-shuzo.shop/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://musashino-shuzo.stores.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-22",
+  "shop": "武蔵野酒造",
+  "company": "—",
+  "addr": "新潟県上越市",
+  "city": "上越市",
+  "genre": "酒",
+  "url": "https://musashino-shuzo.stores.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://myokoshuzo.base.shop/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-23",
+  "shop": "妙高酒造",
+  "company": "—",
+  "addr": "新潟県上越市",
+  "city": "上越市",
+  "genre": "酒",
+  "url": "https://myokoshuzo.base.shop/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://maruyama-shuzojo.ocnk.net/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-24",
+  "shop": "丸山酒造場",
+  "company": "—",
+  "addr": "新潟県上越市",
+  "city": "上越市",
+  "genre": "酒",
+  "url": "https://maruyama-shuzojo.ocnk.net/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://shop.yukitsuru.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-25",
+  "shop": "田原酒造（雪鶴）",
+  "company": "—",
+  "addr": "新潟県糸魚川市",
+  "city": "糸魚川市",
+  "genre": "酒",
+  "url": "https://shop.yukitsuru.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://nechi.theshop.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-26",
+  "shop": "渡辺酒造店（根知男山）",
+  "company": "—",
+  "addr": "新潟県糸魚川市",
+  "city": "糸魚川市",
+  "genre": "酒",
+  "url": "https://nechi.theshop.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://kaganoi.co.jp/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-27",
+  "shop": "加賀の井酒造",
+  "company": "—",
+  "addr": "新潟県糸魚川市",
+  "city": "糸魚川市",
+  "genre": "酒",
+  "url": "https://kaganoi.co.jp/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "http://henmisyuzo.com/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-28",
+  "shop": "逸見酒造",
+  "company": "—",
+  "addr": "新潟県佐渡市",
+  "city": "佐渡市",
+  "genre": "酒",
+  "url": "http://henmisyuzo.com/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://www.obata-shuzo.com/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-29",
+  "shop": "尾畑酒造",
+  "company": "—",
+  "addr": "新潟県佐渡市",
+  "city": "佐渡市",
+  "genre": "酒",
+  "url": "https://www.obata-shuzo.com/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://shop.sake-hokusetsu.com/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-30",
+  "shop": "北雪酒造",
+  "company": "—",
+  "addr": "新潟県佐渡市",
+  "city": "佐渡市",
+  "genre": "酒",
+  "url": "https://shop.sake-hokusetsu.com/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ },
+ {
+  "carriers": [],
+  "kanto": "",
+  "mail": false,
+  "cool": false,
+  "yurl": "",
+  "aurl": "",
+  "amz": "",
+  "wurl": "",
+  "surl": "https://katoshuzoten.com/",
+  "cnote": "未確認",
+  "tel": "",
+  "id": "u-31",
+  "shop": "加藤酒造店（金鶴）",
+  "company": "—",
+  "addr": "新潟県佐渡市",
+  "city": "佐渡市",
+  "genre": "酒",
+  "url": "https://katoshuzoten.com/",
+  "src": "自社サイト",
+  "malls": [
+   "自社サイト"
+  ]
+ }
+]
