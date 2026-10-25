@@ -3,237 +3,240 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>新潟EC店舗 配送検索</title>
+<title>新潟ネットショップ配送調査</title>
 <style>
   :root {
-    --bg: #f6f7f9; --panel: #fff; --text: #1d2330; --muted: #667085; --line: #e3e6eb;
-    --accent: #1f6feb; --accent-soft: #e8f0fe; --chip: #f0f2f5;
+    --bg: #f6f7f9; --panel: #fff; --text: #1d2330; --muted: #5f6b7a; --line: #e3e6eb; --track: #f0f2f5;
+    --accent: #0f7b6c; --link: #1f6feb; --chip: #f0f2f5;
+    --yamato: #d08c00; --yamato-l: #e8d2a4; --post: #c4402f; --post-l: #e6b4ae;
+    --sagawa: #2563ad; --sagawa-l: #a9bfdb; --seino: #8f7bb8; --seino-l: #cfc6e2; --fukuyama: #4f9a76; --fukuyama-l: #b7d8c6;
     --cool: #0b7ea8; --cool-soft: #e2f4fa; --mail: #9a5b00; --mail-soft: #fdf0dc;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #12151b; --panel: #1a1f27; --text: #e6e9ef; --muted: #98a2b3; --line: #2b323d;
-      --accent: #5b9bff; --accent-soft: #1d2b44; --chip: #242a34;
+      --bg: #12151b; --panel: #1a1f27; --text: #e6e9ef; --muted: #98a2b3; --line: #2b323d; --track: #232a34;
+      --accent: #4cc3b0; --link: #6aa6ff; --chip: #242a34;
+      --yamato: #e0a325; --yamato-l: #5c4a22; --post: #e06656; --post-l: #5a2f2a;
+      --sagawa: #5b93db; --sagawa-l: #2c4060; --seino: #a996d6; --seino-l: #3d3552; --fukuyama: #6cc298; --fukuyama-l: #2c4a3b;
       --cool: #5ccbf0; --cool-soft: #13303b; --mail: #f2b65c; --mail-soft: #3a2c15;
     }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text);
-    font: 14px/1.6 system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; }
-  header { padding: 20px 16px 8px; max-width: 1200px; margin: 0 auto; }
-  h1 { font-size: 20px; margin: 0; }
-  header p { margin: 4px 0 0; color: var(--muted); }
-  main { max-width: 1200px; margin: 0 auto; padding: 8px 16px 40px; display: grid; gap: 16px;
-    grid-template-columns: 260px 1fr; align-items: start; }
-  @media (max-width: 800px) { main { grid-template-columns: 1fr; } }
-  aside { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px;
-    position: sticky; top: 12px; }
-  @media (max-width: 800px) { aside { position: static; } }
-  fieldset { border: 0; margin: 0 0 14px; padding: 0; }
-  legend { font-weight: 600; font-size: 12px; color: var(--muted); margin-bottom: 6px; padding: 0; }
-  input[type=search], select { width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
-    background: var(--bg); color: var(--text); font: inherit; }
+    font: 14px/1.7 system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 20px 0 8px; }
+  .eyebrow { margin: 0; font-size: 12px; font-weight: 700; color: var(--accent); letter-spacing: .03em; }
+  h1 { font-size: 28px; margin: 6px 0 10px; letter-spacing: .04em; }
+  .lead { margin: 0; color: var(--muted); max-width: 780px; }
+  .overview { display: grid; grid-template-columns: 1fr 1.4fr; gap: 16px; margin: 20px 0; }
+  @media (max-width: 860px) { .overview { grid-template-columns: 1fr; } }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px; }
+  .panel h2 { font-size: 14px; margin: 0 0 12px; }
+  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 20px; }
+  .stat b { display: block; font-size: 26px; line-height: 1.2; font-variant-numeric: tabular-nums; }
+  .stat span { font-size: 12px; color: var(--muted); }
+  .note { font-size: 12px; color: var(--muted); margin: 14px 0 0; }
+  .bars { display: grid; grid-template-columns: auto 1fr auto; gap: 8px 12px; align-items: center; }
+  .bars .name { font-size: 13px; }
+  .bars .track { position: relative; height: 12px; background: var(--track); border-radius: 3px; overflow: hidden; }
+  .bars .track i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px; }
+  .bars .num { font-size: 12px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+
+  .tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 4px 0 12px; }
+  .tools input[type=search], .tools select { padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px;
+    background: var(--panel); color: var(--text); font: inherit; }
+  .tools input[type=search] { flex: 1 1 220px; min-width: 0; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; }
   .chips label { cursor: pointer; }
   .chips input { position: absolute; opacity: 0; pointer-events: none; }
   .chips span { display: inline-block; padding: 3px 10px; border-radius: 999px; background: var(--chip);
     border: 1px solid transparent; font-size: 13px; }
-  .chips input:checked + span { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+  .chips input:checked + span { border-color: var(--accent); color: var(--accent); }
   .chips input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 1px; }
-  .chips small { color: var(--muted); margin-left: 3px; }
-  .hint { font-size: 12px; color: var(--muted); margin: 4px 0 0; }
-  .modes { display: flex; gap: 10px; font-size: 12px; margin-top: 6px; }
-  button.reset { width: 100%; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--chip);
-    color: var(--text); font: inherit; cursor: pointer; }
-  .bar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; flex-wrap: wrap; }
-  .bar strong { font-size: 16px; }
-  .bar select { width: auto; }
-  .list { display: grid; gap: 10px; }
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
-  .card h2 { font-size: 15px; margin: 0; }
-  .meta { color: var(--muted); font-size: 12px; margin-top: 2px; overflow-wrap: anywhere; }
-  .row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; align-items: center; }
-  .tag { font-size: 12px; padding: 1px 8px; border-radius: 6px; background: var(--chip); }
-  .tag.genre { background: var(--accent-soft); color: var(--accent); }
+  .count { font-weight: 700; margin-left: auto; }
+
+  table { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    overflow: hidden; margin-bottom: 40px; }
+  th, td { padding: 10px 12px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+  th { font-size: 12px; color: var(--muted); font-weight: 600; background: var(--track); white-space: nowrap; }
+  th.fee, td.fee { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  tr:last-child td { border-bottom: 0; }
+  td a.co { color: var(--link); font-weight: 700; text-decoration: none; }
+  td a.co:hover { text-decoration: underline; }
+  .sub { display: block; font-size: 12px; color: var(--muted); }
+  .addr { font-size: 13px; }
+  .tag { display: inline-block; font-size: 12px; padding: 0 7px; border-radius: 5px; background: var(--chip); margin: 1px 2px 1px 0; }
+  .tag.main { color: #fff; }
+  .tag.none { background: none; color: var(--muted); font-style: italic; padding: 0; }
   .tag.cool { background: var(--cool-soft); color: var(--cool); }
   .tag.mail { background: var(--mail-soft); color: var(--mail); }
-  .tag.none { color: var(--muted); font-style: italic; }
-  .fee { margin-left: auto; font-weight: 600; }
-  .fee small { font-weight: 400; color: var(--muted); }
-  .links a { font-size: 12px; color: var(--accent); text-decoration: none; border: 1px solid var(--line);
-    border-radius: 6px; padding: 1px 8px; }
-  .links a:hover { background: var(--accent-soft); }
-  .empty { text-align: center; color: var(--muted); padding: 40px 0; }
+  .na { color: var(--muted); }
+  .links a { font-size: 12px; color: var(--link); text-decoration: none; margin-right: 8px; white-space: nowrap; }
+  .links a:hover { text-decoration: underline; }
+  .empty { text-align: center; color: var(--muted); padding: 30px; }
+
+  /* スマホでは表を1社ずつのカードにする */
+  @media (max-width: 760px) {
+    table, tbody, tr, td { display: block; width: 100%; }
+    thead { display: none; }
+    table { border: 0; background: none; }
+    tr { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin-bottom: 10px; }
+    td { border: 0; padding: 3px 0; }
+    td.fee { display: inline-block; width: auto; text-align: left; margin-right: 14px; }
+    td.fee::before { content: attr(data-label) " "; color: var(--muted); font-size: 12px; }
+  }
 </style>
 </head>
 <body>
-<header>
-  <h1>新潟EC店舗 配送検索</h1>
-  <p id="summary">読み込み中…</p>
-</header>
-<main>
-  <aside>
-    <fieldset>
-      <legend>キーワード</legend>
-      <input type="search" id="q" placeholder="店名・会社名・住所・電話">
-    </fieldset>
-    <fieldset>
-      <legend>ジャンル</legend>
-      <div class="chips" id="f-genre"></div>
-    </fieldset>
-    <fieldset>
-      <legend>配送業者</legend>
-      <div class="chips" id="f-carrier"></div>
-      <div class="modes">
-        <label><input type="radio" name="cmode" value="any" checked> いずれか</label>
-        <label><input type="radio" name="cmode" value="all"> すべて対応</label>
-      </div>
-    </fieldset>
-    <fieldset>
-      <legend>出店モール</legend>
-      <div class="chips" id="f-mall"></div>
-    </fieldset>
-    <fieldset>
-      <legend>対応サービス</legend>
-      <div class="chips" id="f-opt"></div>
-    </fieldset>
-    <fieldset>
-      <legend>市区町村</legend>
-      <select id="city"><option value="">すべて</option></select>
-    </fieldset>
-    <button class="reset" id="reset" type="button">条件をクリア</button>
-  </aside>
-  <section>
-    <div class="bar">
-      <strong id="count"></strong>
-      <select id="sort" aria-label="並び順">
-        <option value="default">並び順：既定</option>
-        <option value="fee-asc">関東送料が安い順</option>
-        <option value="fee-desc">関東送料が高い順</option>
-        <option value="carriers">配送業者が多い順</option>
-        <option value="name">店名順</option>
-      </select>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">楽天・Yahoo!・Amazon・au PAY・酒蔵直営サイト × 新潟市 ／ 2026年10月25日調べ</p>
+    <h1>新潟ネットショップ配送調査</h1>
+    <p class="lead" id="lead">読み込み中…</p>
+  </header>
+
+  <section class="overview">
+    <div class="panel">
+      <h2>ひと目でわかる数字</h2>
+      <div class="stats" id="stats"></div>
+      <p class="note">「主な配送会社」は配送ページで名前が多く出てくる順に並べたものです。実際の契約や出荷量とは異なる場合があります。</p>
     </div>
-    <div class="list" id="list"></div>
+    <div class="panel">
+      <h2 id="bars-title">配送会社の記載状況</h2>
+      <div class="bars" id="bars"></div>
+      <p class="note">濃い部分＝最も多く記載されている会社（主な配送会社）。薄い部分＝ほかの配送方法として記載。楽天標準の「郵便局受取・コンビニ受取」の記載は数えていません。</p>
+    </div>
   </section>
-</main>
+
+  <div class="tools">
+    <input type="search" id="q" placeholder="会社名・店名・住所で検索" aria-label="キーワード">
+    <select id="ward" aria-label="区"><option value="">新潟市全域</option></select>
+    <div class="chips" id="f-carrier"></div>
+    <span class="count" id="count"></span>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>会社・店名</th><th>住所</th><th>配送会社</th>
+        <th class="fee">新潟県内</th><th class="fee">関東</th><th class="fee">大阪</th>
+        <th>便</th><th>販路</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+
 <script>
-const GENRES = ["酒", "米", "水産", "菓子・米菓", "食品・ギフト", "キッチン・金物", "雑貨・その他"];
-const CARRIERS = ["ヤマト", "日本郵便", "佐川", "西濃", "福山"];
-const MALLS = ["楽天", "Yahoo!", "Amazon", "au PAY", "自社サイト"];
-const OPTS = [["cool", "クール便"], ["mail", "メール便"], ["fee", "関東送料の記載あり"], ["nocarrier", "配送業者 未確認"]];
+const CARRIERS = [
+  ["ヤマト", "--yamato"], ["日本郵便", "--post"], ["佐川", "--sagawa"], ["西濃", "--seino"], ["福山", "--fukuyama"],
+];
+const UNKNOWN = "不明";
 
 const $ = (id) => document.getElementById(id);
-const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const fee = (s) => (/^\d+円$/.test(s.kanto) ? parseInt(s.kanto, 10) : null);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const yen = (v) => (v ? esc(v) : `<span class="na">—</span>`);
 
 function mallLinks(s) {
   const links = [];
   if (/rakuten\.co\.jp/.test(s.url)) links.push(["楽天", s.url]);
   if (s.yurl) links.push(["Yahoo!", s.yurl]);
-  if (s.aurl) links.push(["Amazon" + (s.amz && s.amz !== "自社発送" ? `（${s.amz}）` : ""), s.aurl]);
+  if (s.aurl) links.push(["Amazon", s.aurl]);
   if (s.wurl) links.push(["au PAY", s.wurl]);
   if (s.surl) links.push(["自社サイト", s.surl]);
   return links;
 }
 
-function chips(el, items, name, counts) {
-  el.innerHTML = items.map(([v, label]) =>
-    `<label><input type="checkbox" name="${name}" value="${esc(v)}"><span>${esc(label)}<small>${counts[v] ?? 0}</small></span></label>`
-  ).join("");
-}
+// 会社名クリック時の飛び先：店舗トップ（楽天→Yahoo!→自社→au PAY→Amazonの順で最初にあるもの）
+const shopUrl = (s) => s.url || s.yurl || s.surl || s.wurl || s.aurl;
 
-const checked = (name) => [...document.querySelectorAll(`input[name=${name}]:checked`)].map((i) => i.value);
+function carrierCell(s) {
+  if (s.carriers.length) {
+    return s.carriers.map((c, i) => {
+      const color = CARRIERS.find(([n]) => n === c)?.[1];
+      return i === 0 && color
+        ? `<span class="tag main" style="background:var(${color})" title="主な配送会社">${esc(c)}</span>`
+        : `<span class="tag">${esc(c)}</span>`;
+    }).join("");
+  }
+  if (s.amz) return `<span class="tag none">Amazon：${esc(s.amz)}</span>`;
+  return `<span class="tag none">${esc(s.cnote || "未確認")}</span>`;
+}
 
 let shops = [];
 
+function renderOverview() {
+  const known = shops.filter((s) => s.carriers.length);
+  const n = (f) => shops.filter(f).length;
+  const stats = [
+    [shops.length, "新潟市内の会社"],
+    [n((s) => s.carriers.length === 1 && s.carriers[0] === "ヤマト"), "ヤマトだけを記載"],
+    [n((s) => s.carriers.length >= 3), "3社以上を記載"],
+    [n((s) => s.malls.length >= 2), "2つ以上の販路で販売"],
+  ];
+  $("stats").innerHTML = stats.map(([v, l]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
+
+  $("bars-title").textContent = `配送会社の記載状況（${known.length}社中・楽天とYahoo!の記載から）`;
+  $("bars").innerHTML = CARRIERS.filter(([c]) => known.some((s) => s.carriers.includes(c))).map(([c, color]) => {
+    const main = known.filter((s) => s.carriers[0] === c).length;
+    const total = known.filter((s) => s.carriers.includes(c)).length;
+    const pct = (v) => (known.length ? (v / known.length) * 100 : 0);
+    return `<span class="name">${c}</span>
+      <span class="track" role="img" aria-label="${c} 主${main}／計${total}店">
+        <i style="width:${pct(total)}%;background:var(${color}-l)"></i>
+        <i style="width:${pct(main)}%;background:var(${color})"></i>
+      </span>
+      <span class="num">主${main}／計${total}店</span>`;
+  }).join("");
+
+  $("lead").textContent =
+    `楽天市場・Yahoo!ショッピング・Amazon・au PAY マーケットで新潟の名産品（米・日本酒・水産・菓子など）を扱うショップと、酒蔵などの直営オンラインショップのうち、` +
+    `会社概要の所在地が新潟市内の${shops.length}社について、配送ページに載っている配送会社と送料（新潟県内・関東・大阪向け）をまとめました。` +
+    `複数のモールに出店している会社は1行にまとめています。配送会社がわからないお店も載せています。` +
+    `Amazonは配送会社を公開していないため、Amazonの倉庫から発送か、お店が自分で発送かを載せています。`;
+}
+
 function render() {
   const q = $("q").value.trim().toLowerCase();
-  const genres = checked("genre"), carriers = checked("carrier"), malls = checked("mall"), opts = checked("opt");
-  const cmode = document.querySelector("input[name=cmode]:checked").value;
-  const city = $("city").value;
-
-  let rows = shops.filter((s) => {
-    if (q && ![s.shop, s.company, s.addr, s.tel, s.tel.replace(/-/g, "")].join(" ").toLowerCase().includes(q)) return false;
-    if (genres.length && !genres.includes(s.genre)) return false;
-    if (carriers.length) {
-      const ok = cmode === "all" ? carriers.every((c) => s.carriers.includes(c)) : carriers.some((c) => s.carriers.includes(c));
-      if (!ok) return false;
-    }
-    if (malls.length && !malls.some((m) => s.malls.includes(m))) return false;
-    if (opts.includes("cool") && !s.cool) return false;
-    if (opts.includes("mail") && !s.mail) return false;
-    if (opts.includes("fee") && fee(s) === null) return false;
-    if (opts.includes("nocarrier") && s.carriers.length) return false;
-    if (city && s.city !== city) return false;
+  const ward = $("ward").value;
+  const picked = [...document.querySelectorAll("input[name=carrier]:checked")].map((i) => i.value);
+  const rows = shops.filter((s) => {
+    if (q && ![s.shop, s.company, s.addr].join(" ").toLowerCase().includes(q)) return false;
+    if (ward && s.city !== ward) return false;
+    if (picked.length && !picked.some((c) => (c === UNKNOWN ? !s.carriers.length : s.carriers.includes(c)))) return false;
     return true;
   });
-
-  const sort = $("sort").value;
-  const byFee = (dir) => (a, b) => {
-    const fa = fee(a), fb = fee(b);
-    if (fa === null) return fb === null ? 0 : 1;
-    if (fb === null) return -1;
-    return (fa - fb) * dir;
-  };
-  if (sort === "fee-asc") rows.sort(byFee(1));
-  if (sort === "fee-desc") rows.sort(byFee(-1));
-  if (sort === "carriers") rows.sort((a, b) => b.carriers.length - a.carriers.length);
-  if (sort === "name") rows.sort((a, b) => a.shop.localeCompare(b.shop, "ja"));
-
-  $("count").textContent = `${rows.length} 件`;
-  $("list").innerHTML = rows.length ? rows.map(card).join("") : `<div class="empty">条件に合う店舗がありません</div>`;
-}
-
-function card(s) {
-  const f = fee(s);
-  const carriers = s.carriers.length
-    ? s.carriers.map((c) => `<span class="tag">${esc(c)}</span>`).join("")
-    : `<span class="tag none">配送業者 ${esc(s.cnote || "未確認")}</span>`;
-  const company = s.company && s.company !== "—" ? esc(s.company) + " ・ " : "";
-  return `<article class="card">
-    <h2>${esc(s.shop)}</h2>
-    <div class="meta">${company}${esc(s.addr)} ・ ${esc(s.tel)}</div>
-    <div class="row">
-      <span class="tag genre">${esc(s.genre)}</span>${carriers}
-      ${s.cool ? `<span class="tag cool">クール便</span>` : ""}${s.mail ? `<span class="tag mail">メール便</span>` : ""}
-      <span class="fee">${f === null ? `<small>関東送料 —</small>` : `<small>関東送料</small> ${f.toLocaleString()}円`}</span>
-    </div>
-    <div class="row links">${mallLinks(s).map(([l, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join("")}</div>
-  </article>`;
-}
-
-function countBy(fn) {
-  const c = {};
-  for (const s of shops) for (const k of fn(s)) c[k] = (c[k] || 0) + 1;
-  return c;
+  $("count").textContent = `${rows.length} 社`;
+  $("rows").innerHTML = rows.length ? rows.map((s) => `<tr>
+      <td><a class="co" href="${esc(shopUrl(s))}" target="_blank" rel="noopener">${esc(s.company && !["—", "個人事業主"].includes(s.company) ? s.company : s.shop)}</a>
+        <span class="sub">${esc(s.shop)} ・ ${esc(s.genre)}</span></td>
+      <td class="addr">${esc(s.addr.replace(/^新潟県/, ""))}<span class="sub">${esc(s.tel)}</span></td>
+      <td>${carrierCell(s)}</td>
+      <td class="fee" data-label="県内">${yen(s.fee_ken)}</td>
+      <td class="fee" data-label="関東">${yen(s.kanto)}</td>
+      <td class="fee" data-label="大阪">${yen(s.fee_osaka)}</td>
+      <td>${s.cool ? `<span class="tag cool">クール</span>` : ""}${s.mail ? `<span class="tag mail">メール便</span>` : ""}</td>
+      <td class="links">${mallLinks(s).map(([l, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join("")}</td>
+    </tr>`).join("") : `<tr><td colspan="8" class="empty">条件に合う会社がありません</td></tr>`;
 }
 
 fetch("data/shops.json")
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then((data) => {
-    shops = data;
-    chips($("f-genre"), GENRES.map((g) => [g, g]), "genre", countBy((s) => [s.genre]));
-    chips($("f-carrier"), CARRIERS.map((c) => [c, c]), "carrier", countBy((s) => s.carriers));
-    chips($("f-mall"), MALLS.map((m) => [m, m]), "mall", countBy((s) => s.malls));
-    chips($("f-opt"), OPTS, "opt", countBy((s) => [
-      s.cool && "cool", s.mail && "mail", fee(s) !== null && "fee", !s.carriers.length && "nocarrier",
-    ].filter(Boolean)));
-    const cities = Object.entries(countBy((s) => [s.city])).sort((a, b) => b[1] - a[1]);
-    $("city").innerHTML += cities.map(([c, n]) => `<option value="${esc(c)}">${esc(c)}（${n}）</option>`).join("");
-    $("summary").textContent = `新潟県内のEC店舗 ${shops.length} 件の配送業者・関東送料・クール便／メール便対応を絞り込めます。`;
-    document.querySelector("aside").addEventListener("input", render);
-    $("sort").addEventListener("change", render);
-    $("reset").addEventListener("click", () => {
-      document.querySelectorAll("aside input[type=checkbox]").forEach((i) => (i.checked = false));
-      document.querySelector("input[name=cmode][value=any]").checked = true;
-      $("q").value = ""; $("city").value = "";
-      render();
-    });
+    const collator = new Intl.Collator("ja", { numeric: true });
+    shops = data.filter((s) => s.city.startsWith("新潟市")).sort((a, b) => collator.compare(a.addr, b.addr));
+    renderOverview();
+    const wards = [...new Set(shops.map((s) => s.city))].sort(collator.compare);
+    $("ward").innerHTML += wards.map((w) => `<option value="${esc(w)}">${esc(w.replace("新潟市", ""))}</option>`).join("");
+    $("f-carrier").innerHTML = [...CARRIERS.map(([c]) => c), UNKNOWN]
+      .filter((c) => c === UNKNOWN || shops.some((s) => s.carriers.includes(c)))
+      .map((c) => `<label><input type="checkbox" name="carrier" value="${c}"><span>${c}</span></label>`).join("");
+    document.querySelector(".tools").addEventListener("input", render);
     render();
   })
   .catch((e) => {
-    $("summary").textContent = `data/shops.json を読み込めませんでした（${e.message}）。ローカルで開く場合は「python3 -m http.server」等で配信してください。`;
+    $("lead").textContent = `data/shops.json を読み込めませんでした（${e.message}）。ローカルで開く場合は「python3 -m http.server」等で配信してください。`;
   });
 </script>
 </body>
