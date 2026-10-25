@@ -13,3 +13,5 @@ python3 -m http.server
 ```
 
 GitHub Pages でそのまま公開することもできる。
+
+- `niigata-shops.html` — 新潟市8区のEC事業者リスト（350件・住所／配送会社／送料／出店先）。1ファイルで完結
