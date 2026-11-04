@@ -42,6 +42,7 @@ header p{margin:6px 0 0;color:var(--muted);max-width:70ch}
 .note{color:var(--muted);font-size:12px;margin:10px 0 0}
 .controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
 .controls label{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.addrhit{font-size:11px;color:var(--muted);min-height:1em}.addrhit b{color:var(--accent);font-weight:600}
 input[type=search],select{font:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);min-width:0}
 input[type=search]{width:min(280px,100%)}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
@@ -114,6 +115,10 @@ footer{color:var(--muted);font-size:12px;display:grid;gap:4px}
     <label for="q">キーワード
       <input type="search" id="q" placeholder="店名・会社名・町名">
     </label>
+    <label for="addrq">住所（複数可・どれかに当てはまる）
+      <input type="search" id="addrq" placeholder="例：東大通、花園、八千代" style="min-width:16em">
+      <span id="addrhit" class="addrhit"></span>
+    </label>
     <label for="ward">区
       <select id="ward"><option value="">すべて</option></select>
     </label>
@@ -178,7 +183,7 @@ const CARRIERS = ["ヤマト","日本郵便","佐川","西濃","福山"];
 const COLOR = {"ヤマト":"var(--c-yamato)","日本郵便":"var(--c-jp)","佐川":"var(--c-sagawa)","西濃":"var(--c-seino)","福山":"var(--c-fukuyama)"};
 const CHS = ["楽天","Yahoo!","Amazon","au PAY","BASE","STORES","カラーミー","おちゃのこ","楽楽うる","自社サイト","ふるさと納税","食べチョク","ポケマル","会社HP"];
 const GENRES = [...new Set(ROWS.map(r=>r.genre))].sort((a,b)=>(a==="雑貨・その他")-(b==="雑貨・その他")||a.localeCompare(b,"ja"));
-const state = {q:"", ward:"", carrier:"", ch:"", fee:"", genre:"", sort:{k:"addr", dir:"asc"}};
+const state = {q:"", addr:[], ward:"", carrier:"", ch:"", fee:"", genre:"", sort:{k:"addr", dir:"asc"}};
 const yen = s => (s && /\d/.test(s)) ? parseInt(s.replace(/[^0-9]/g,""),10) : (s?0:null);
 const wo = Object.fromEntries(WARDS.map((w,i)=>[w,i]));
 
@@ -230,13 +235,19 @@ const gbox=document.getElementById("genres");
   gbox.appendChild(b);
 });
 document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value.trim();render();});
+const normAddr=s=>s.replace(/[０-９]/g,c=>String.fromCharCode(c.charCodeAt(0)-0xFEE0)).replace(/[－−ー‐]/g,"-");
+document.getElementById("addrq").addEventListener("input",e=>{state.addr=[...new Set(normAddr(e.target.value).split(/[、,，\s　・／/]+/).map(x=>x.trim()).filter(Boolean))];render();});
+function drawAddrHit(){const el=document.getElementById("addrhit");if(!state.addr.length){el.textContent="";return;}
+  const base=ROWS.filter(r=>match(r,true));
+  el.innerHTML=state.addr.map(t=>`${esc(t)} <b>${base.filter(r=>normAddr(r.ward+r.addr).includes(t)).length}</b>件`).join("・");}
 ["ward","carrier","ch"].forEach(id=>document.getElementById(id).addEventListener("change",e=>{state[id]=e.target.value;render();}));
 document.querySelectorAll("th button").forEach(b=>b.addEventListener("click",()=>{
   const k=b.dataset.k; state.sort.dir=(state.sort.k===k&&state.sort.dir==="asc")?"desc":"asc"; state.sort.k=k;
   document.querySelectorAll("th button").forEach(x=>x.removeAttribute("data-dir")); b.dataset.dir=state.sort.dir; render();
 }));
 
-function match(r){
+function match(r,skipAddr){
+  if(!skipAddr&&state.addr.length){const s=normAddr(r.ward+r.addr); if(!state.addr.some(t=>s.includes(t))) return false;}
   if(state.q){const s=(r.shop+r.company+r.ward+r.addr).toLowerCase(); if(!s.includes(state.q.toLowerCase())) return false;}
   if(state.ward && r.ward!==state.ward) return false;
   if(state.genre && r.genre!==state.genre) return false;
@@ -265,10 +276,10 @@ function sorted(list){
 const dash="<span class='dim'>—</span>";
 let current=[];
 function render(){
-  current=sorted(ROWS.filter(match));
+  current=sorted(ROWS.filter(r=>match(r)));
   const tb=document.getElementById("tb"); tb.textContent="";
   document.getElementById("count").textContent=`${current.length}件を表示中（全${ROWS.length}件）`;
-  drawBars(current);
+  drawBars(current); drawAddrHit();
   if(!current.length){const tr=document.createElement("tr");tr.innerHTML='<td colspan="7" class="empty">条件に合う事業者がありません。絞り込みをゆるめてみてください。</td>';tb.appendChild(tr);return;}
   let lastWard=null; const grouped=state.sort.k==="addr";
   current.forEach(r=>{
