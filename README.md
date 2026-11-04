@@ -1,19 +1,11 @@
 # haisou
 
-新潟市内のネットショップの配送会社・送料をまとめた静的ページ（`data/shops.json` のうち所在地が新潟市内の会社を住所順に表示）。
+新潟市8区のEC事業者リスト（350件）を載せている静的ページ。
 
-公開URL: https://kazzki-max2323.github.io/haisou/
+公開URL: https://kazzki-max2323.github.io/haisou/niigata-shops.html
+（https://kazzki-max2323.github.io/haisou/ を開いても同じページに移動する）
 
-- `index.html` — 調査ページ（概要の数字・配送会社の記載状況グラフ・一覧表）
-- `data/shops.json` — 店舗データ
+- `niigata-shops.html` — リスト本体。住所（番地まで）・ショップ／会社・ジャンル・出店先・電話・配送会社・クール便を載せ、区・配送会社・出店先・ジャンル・キーワードで絞り込める。配送会社のグラフは絞り込みに合わせて変わる。データもページの中に入っていて、このファイル1つで動く
+- `index.html` — `niigata-shops.html` へ移動するだけのページ
 
-`fetch` でJSONを読むため、ローカルではHTTPサーバー経由で開く:
-
-```sh
-python3 -m http.server
-# → http://localhost:8000/
-```
-
-GitHub Pages でそのまま公開することもできる。
-
-- `niigata-shops.html` — 新潟市8区のEC事業者リスト（350件・住所／配送会社／送料／出店先）。1ファイルで完結
+検索サイトに載らないよう noindex を入れている。
