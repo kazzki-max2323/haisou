@@ -39,6 +39,26 @@ header p{margin:6px 0 0;color:var(--muted);max-width:70ch}
 .fill{height:100%;border-radius:4px;transition:width .25s ease}
 .scope{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:11px;font-weight:600;vertical-align:2px}
 .bar.sub{font-size:12px;color:var(--muted)}.bar.sub>span:first-child{padding-left:4px;white-space:nowrap}.bar.sub .track{height:9px}
+
+.cbtn{all:unset;cursor:pointer;color:var(--ink);border-bottom:1px dashed var(--muted);line-height:1.3;white-space:nowrap}
+.cbtn:hover,.cbtn:focus-visible{color:var(--accent);border-bottom-color:var(--accent)}
+.cbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar.sub .cbtn{color:var(--muted)}
+.cmodal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:16px;z-index:50}
+.cmodal[hidden]{display:none}
+.cbox{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:12px;width:min(720px,100%);max-height:88vh;overflow:auto;padding:18px 20px;box-shadow:0 10px 40px rgba(0,0,0,.25)}
+.cbox h3{margin:0;font-size:17px;display:flex;align-items:center;gap:8px}
+.cbox .sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.cbox .sub{color:var(--muted);font-size:12px;margin:4px 0 12px}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px 20px}
+.cgrid h4{font-size:12px;color:var(--muted);margin:0 0 6px;font-weight:600}
+.crow{display:grid;grid-template-columns:minmax(0,1fr) 60px 82px;gap:6px;align-items:center;font-size:12px;margin:3px 0}
+.crow .t{height:8px;background:var(--bg);border-radius:3px;overflow:hidden}.crow .t i{display:block;height:100%;border-radius:3px}
+.crow .v{white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums;color:var(--muted)}
+.cfoot{display:flex;gap:8px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}
+.cfoot button{font:inherit;font-size:13px;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.cfoot button.pri{background:var(--accent);color:#fff;border-color:var(--accent)}
+.cx{margin-left:auto;font:inherit;font-size:20px;line-height:1;background:none;border:0;color:var(--muted);cursor:pointer;padding:2px 6px}
 .bar .n{font-family:var(--f-num);font-variant-numeric:tabular-nums;color:var(--muted);text-align:right;font-size:12px}
 .note{color:var(--muted);font-size:12px;margin:10px 0 0}
 .controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
@@ -104,7 +124,7 @@ footer{color:var(--muted);font-size:12px;display:grid;gap:4px}
     <p class="note">区ごとの件数：<span id="wardline"></span></p>
   </div>
   <div class="panel">
-    <h2>配送会社の記載状況<span class="scope" id="b-scope" hidden>絞り込み中</span></h2>
+    <h2>配送会社の記載状況<span class="scope" id="b-scope" hidden>絞り込み中</span><span style="font-size:11px;font-weight:400;color:var(--muted);margin-left:8px">名前を押すと内訳が出ます</span></h2>
     <p class="note" id="b-sub" style="margin:-4px 0 10px"></p>
     <div class="bars" id="bars"></div>
     <p class="note">1つのお店が複数の配送会社を書いていることが多いため、合計は100%を超えます。日本郵便の内訳は、ゆうパックと、ゆうパケット・クリックポスト・レターパック・ゆうメール・定形外などの小さい荷物向けに分けています（両方使うお店は両方に数えます）。楽天標準の「郵便局受取・コンビニ受取」は数えていません。</p>
@@ -136,6 +156,7 @@ footer{color:var(--muted);font-size:12px;display:grid;gap:4px}
         <option value="has-佐川">佐川の記載あり</option>
         <option value="no-佐川">佐川の記載なし（わかった中で）</option>
         <option value="has-西濃">西濃の記載あり</option>
+        <option value="has-福山">福山の記載あり</option>
         <option value="three">3社以上を記載</option>
       </select>
     </label>
@@ -206,12 +227,12 @@ const barEls={};
   const bars=document.getElementById("bars");
   BAR_CARRIERS.forEach(c=>{
     const el=document.createElement("div"); el.className="bar";
-    el.innerHTML=`<span>${c}</span><div class="track" role="img"><div class="fill" style="width:0;background:${COLOR[c]}"></div></div><span class="n"></span>`;
+    el.innerHTML=`<span><button type="button" class="cbtn" data-k="${c}">${c}</button></span><div class="track" role="img"><div class="fill" style="width:0;background:${COLOR[c]}"></div></div><span class="n"></span>`;
     bars.appendChild(el); barEls[c]=el;
     if(c==="日本郵便"){
       [["jp-P","└ ゆうパック"],["jp-M","└ ゆうパケット等"],["jp-U","└ 種類不明"]].forEach(([k,lab])=>{
         const s=document.createElement("div"); s.className="bar sub";
-        s.innerHTML=`<span>${lab}</span><div class="track" role="img"><div class="fill" style="width:0;background:${COLOR[c]};opacity:${k==="jp-P"?1:k==="jp-M"?.6:.3}"></div></div><span class="n"></span>`;
+        s.innerHTML=`<span>└ <button type="button" class="cbtn" data-k="${k}">${lab.replace("└ ","")}</button></span><div class="track" role="img"><div class="fill" style="width:0;background:${COLOR[c]};opacity:${k==="jp-P"?1:k==="jp-M"?.6:.3}"></div></div><span class="n"></span>`;
         bars.appendChild(s); barEls[k]=s;
       });
     }
@@ -242,6 +263,47 @@ function drawBars(rows){
   });
 }
 
+
+// ---- 配送会社ごとの内訳ポップアップ ----
+const CDEF={"jp-P":["日本郵便（ゆうパック）","日本郵便",r=>r.carriers.includes("日本郵便")&&(r.jp||"").includes("P"),"jp-P"],
+ "jp-M":["日本郵便（ゆうパケット等）","日本郵便",r=>r.carriers.includes("日本郵便")&&(r.jp||"").includes("M"),"jp-M"],
+ "jp-U":["日本郵便（種類不明）","日本郵便",r=>r.carriers.includes("日本郵便")&&!r.jp,null]};
+CARRIERS.forEach(c=>CDEF[c]=[c,c,r=>r.carriers.includes(c),"has-"+c]);
+const cm=document.createElement("div");cm.className="cmodal";cm.hidden=true;cm.setAttribute("role","dialog");cm.setAttribute("aria-modal","true");
+cm.innerHTML='<div class="cbox" tabindex="-1"></div>';document.body.appendChild(cm);
+let cmLast=null;
+function cClose(){cm.hidden=true;if(cmLast)cmLast.focus();}
+cm.addEventListener("click",e=>{if(e.target===cm)cClose();});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!cm.hidden)cClose();});
+function cList(title,pairs,total,color){
+  if(!pairs.length) return `<div><h4>${title}</h4><div class="crow"><span>—</span></div></div>`;
+  const mx=Math.max(...pairs.map(p=>p[1]));
+  return `<div><h4>${title}</h4>`+pairs.map(([k,n])=>`<div class="crow"><span>${esc(k)}</span><div class="t"><i style="width:${n/mx*100}%;background:${color}"></i></div><span class="v">${n}件 ${Math.round(n/total*100)}%</span></div>`).join("")+`</div>`;
+}
+function cCount(rows,f){const m=new Map();rows.forEach(r=>[].concat(f(r)).forEach(k=>{if(k)m.set(k,(m.get(k)||0)+1)}));return [...m.entries()].sort((a,b)=>b[1]-a[1]);}
+function cOpen(k,btn){
+  const d=CDEF[k]; if(!d) return; cmLast=btn;
+  const base=current, rows=base.filter(d[2]), n=rows.length, color=COLOR[d[1]];
+  const filtered=base.length!==ROWS.length;
+  const wards=WARDS.map(w=>[w,rows.filter(r=>r.ward===w).length]).filter(p=>p[1]);
+  const others=cCount(rows,r=>r.carriers.filter(c=>c!==d[1]));
+  const solo=rows.filter(r=>r.carriers.length===1).length;
+  const box=cm.querySelector(".cbox");
+  box.innerHTML=`<h3><span class="sw" style="background:${color}"></span>${esc(d[0])}<button type="button" class="cx" aria-label="閉じる">×</button></h3>
+  <p class="sub">${filtered?`表示中の${base.length}件のうち`:`全${base.length}件のうち`}、${n}件が使っている（配送会社がわかったお店の${Math.round(n/Math.max(1,base.filter(r=>r.carriers.length).length)*100)}%）。クール便あり ${rows.filter(r=>r.cool).length}件・${esc(d[1])}だけ ${solo}件</p>
+  ${n?`<div class="cgrid">
+    ${cList("区",wards,n,color)}
+    ${cList("出店先",cCount(rows,r=>r.ch),n,color)}
+    ${cList("ジャンル",cCount(rows,r=>r.genre),n,color)}
+    ${cList("一緒に使っている配送会社",others,n,"var(--muted)")}
+  </div>`:'<p class="sub">該当するお店はありません。</p>'}
+  <div class="cfoot">${d[3]&&n?'<button type="button" class="pri" data-go="1">このお店を一覧で見る</button>':''}<button type="button" data-close="1">閉じる</button></div>`;
+  box.querySelector(".cx").onclick=cClose; box.querySelector("[data-close]").onclick=cClose;
+  const go=box.querySelector("[data-go]");
+  if(go) go.onclick=()=>{const s=document.getElementById("carrier");s.value=d[3];state.carrier=d[3];render();cm.hidden=true;document.getElementById("count").scrollIntoView({behavior:"smooth",block:"start"});};
+  cm.hidden=false; box.focus();
+}
+document.getElementById("bars").addEventListener("click",e=>{const b=e.target.closest(".cbtn");if(b)cOpen(b.dataset.k,b);});
 const wardSel=document.getElementById("ward");
 WARDS.forEach(w=>{const o=document.createElement("option");o.value=w;o.textContent=`${w}（${ROWS.filter(r=>r.ward===w).length}）`;wardSel.appendChild(o);});
 const chSel=document.getElementById("ch");
