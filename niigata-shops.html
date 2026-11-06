@@ -59,7 +59,12 @@ header p{margin:6px 0 0;color:var(--muted);max-width:70ch}
 .cfoot button{font:inherit;font-size:13px;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
 .cfoot button.pri{background:var(--accent);color:#fff;border-color:var(--accent)}
 .cx{margin-left:auto;font:inherit;font-size:20px;line-height:1;background:none;border:0;color:var(--muted);cursor:pointer;padding:2px 6px}
-.clearbtn{align-self:flex-end}.clearbtn:disabled{opacity:.45;cursor:default}
+button.btn.clearbtn{align-self:flex-end;background:#d9480f;border-color:#d9480f;color:#fff;font-weight:600;padding:7px 14px}
+button.btn.clearbtn:hover:not(:disabled){background:#b93c0b;border-color:#b93c0b}
+.clearbtn:focus-visible{outline:2px solid #d9480f;outline-offset:2px}
+button.btn.clearbtn:disabled{background:transparent;border-color:var(--line);color:var(--muted);font-weight:400;cursor:default}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) button.btn.clearbtn:not(:disabled){background:#ff7a45;border-color:#ff7a45;color:#1a0f08}}
+:root[data-theme="dark"] button.btn.clearbtn:not(:disabled){background:#ff7a45;border-color:#ff7a45;color:#1a0f08}
 .bar .n{font-family:var(--f-num);font-variant-numeric:tabular-nums;color:var(--muted);text-align:right;font-size:12px}
 .note{color:var(--muted);font-size:12px;margin:10px 0 0}
 .controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
@@ -164,7 +169,7 @@ footer{color:var(--muted);font-size:12px;display:grid;gap:4px}
     <label for="ch">出店先
       <select id="ch"><option value="">すべて</option><option value="multi">2つ以上で販売</option></select>
     </label>
-    <button type="button" class="btn clearbtn" id="clearall" disabled>絞り込みをクリア</button>
+    <button type="button" class="btn clearbtn" id="clearall" disabled>✕ 絞り込みをクリア</button>
     <div>
       <div style="font-size:12px;color:var(--muted);margin-bottom:4px">ジャンル</div>
       <div class="chips" id="genres"></div>
