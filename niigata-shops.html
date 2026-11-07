@@ -25,6 +25,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1
 .wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:grid;gap:20px}
 header h1{font-family:var(--f-display);font-weight:900;font-size:clamp(22px,4vw,30px);margin:0;text-wrap:balance;letter-spacing:.02em}
 header p{margin:6px 0 0;color:var(--muted);max-width:70ch}
+.memo-link{margin:10px 0 0}.memo-link a{color:var(--accent);display:inline-block;padding:6px 12px;border:1px solid var(--accent);border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;background:var(--accent-soft)}
 .eyebrow{font-size:12px;letter-spacing:.12em;color:var(--accent);font-weight:700}
 .summary{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:16px}
 @media (max-width:760px){.summary{grid-template-columns:1fr}}
@@ -116,6 +117,7 @@ footer{color:var(--muted);font-size:12px;display:grid;gap:4px}
   <div class="eyebrow">新潟市8区 × 楽天・Yahoo!・BASE・STORES・カラーミー・自社サイト・新潟直送計画・ガタ市・ふるさと納税・食べチョク・ポケマル ほか ／ 2026年10月25日調べ</div>
   <h1>新潟市EC事業者リスト</h1>
   <p>新潟市内に所在地を置いてネット通販をしている事業者<span id="h-total"></span>件を、住所順（中央区→北区→東区→江南区→秋葉区→南区→西区→西蒲区、区の中は町名順）に並べました。住所は各ショップが特定商取引法表記・会社概要に載せているものを番地・建物名まで転記しています。各モールの会社概要・特定商取引法表記で所在地を確認したものだけを載せています。配送会社が書かれていないお店も「記載なし」として含めています。</p>
+  <p class="memo-link"><a href="niigata-chokuso.html">📦 新潟直送計画まとめ（ヤマトとの連携・出店の費用・営業のポイント）→</a></p>
 </header>
 
 <section class="summary" aria-label="集計">
