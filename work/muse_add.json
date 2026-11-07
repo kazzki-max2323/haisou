@@ -1,0 +1,4307 @@
+[
+{
+"shop": "KOUGI（コウギ）",
+"company": "有限会社阿部仏壇製作所",
+"ward": "東区",
+"addr": "東区木工新町372-10",
+"tel": "025-275-7801",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"minne": "https://minne.com/items/38403181?query_id=39b02b12-b52f-4abd-a651-91528346cfca",
+"Creema": "https://www.creema.jp/c/KOUGI/item/onsale",
+"新潟直送計画": "https://shop.ng-life.jp/kougi/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "MAPS Online Store",
+"company": "有限会社マップス",
+"ward": "中央区",
+"addr": "中央区西堀前通4-735-1",
+"tel": "025-228-4667",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "衣料・服飾",
+"links": {
+"自社サイト": "https://www.m-a-p-s.jp"
+}
+},
+{
+"shop": "KiKi Sake",
+"company": "KiKi Sake",
+"ward": "中央区",
+"addr": "中央区新和4-11-17 103",
+"tel": "080-3819-5908",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "酒",
+"links": {
+"Shopify": "https://kiki-sake.myshopify.com/en"
+}
+},
+{
+"shop": "みかづき（冷凍イタリアン）",
+"company": "株式会社みかづき",
+"ward": "江南区",
+"addr": "江南区江口2140-2",
+"tel": "025-277-2121",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": true,
+"genre": "食品・ギフト",
+"links": {
+"ふるさとチョイス": "https://www.furusato-tax.jp/product/detail/15100/5247725",
+"新潟直送計画": "https://shop.ng-life.jp/mikazuki/"
+}
+},
+{
+"shop": "ハロー！！JA全農にいがた",
+"company": "JA全農にいがた",
+"ward": "西区",
+"addr": "西区山田2310-15",
+"tel": "025-232-1587",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"JAタウン": "https://www.ja-town.com/shop/c/c3901"
+}
+},
+{
+"shop": "HOSHINO ONLINE SHOP",
+"company": "星野株式会社",
+"ward": "南区",
+"addr": "南区新飯田2294-2",
+"tel": "025-374-2201",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"自社サイト": "https://www.hoshino-co.com/"
+}
+},
+{
+"shop": "SHOP SUGICO",
+"company": "スギコ産業株式会社",
+"ward": "西蒲区",
+"addr": "西蒲区遠藤2810-3",
+"tel": "0256-86-3738",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "工具・車・スポーツ",
+"links": {
+"自社サイト": "https://shop.sugico.co.jp/view/contract"
+}
+},
+{
+"shop": "ヒメミズキ",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区古町通2番町528",
+"tel": "025-201-9252",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "キッチン・家具・生活",
+"links": {
+"カラーミー": "https://himemizuki.shop-pro.jp/"
+}
+},
+{
+"shop": "株式会社にこっと",
+"company": "株式会社にこっと",
+"ward": "中央区",
+"addr": "中央区新和1-6-20",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/kitamura/"
+}
+},
+{
+"shop": "土産処きなせや本舗",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区大島156-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0944/"
+}
+},
+{
+"shop": "雪国あられ株式会社",
+"company": "雪国あられ株式会社",
+"ward": "中央区",
+"addr": "中央区上近江3-2-12",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0572/"
+}
+},
+{
+"shop": "にいがた石山",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区本町通6-1118",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "水産",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/niigata-ishiyama/"
+}
+},
+{
+"shop": "近藤菜園",
+"company": "—",
+"ward": "北区",
+"addr": "北区濁川406",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0612/"
+}
+},
+{
+"shop": "マルタスギヨ株式会社",
+"company": "マルタスギヨ株式会社",
+"ward": "北区",
+"addr": "北区太子堂134-4",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/marutafoods/"
+}
+},
+{
+"shop": "池田観光果樹園",
+"company": "—",
+"ward": "南区",
+"addr": "南区新飯田2584-15",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/ikedakankoukaju/"
+}
+},
+{
+"shop": "大橋食品製造所",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区小吉1307",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/ohashi/"
+}
+},
+{
+"shop": "OTEGAMI",
+"company": "—",
+"ward": "北区",
+"addr": "北区葛塚3223",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1110/"
+}
+},
+{
+"shop": "旅館 長岡屋",
+"company": "—",
+"ward": "北区",
+"addr": "北区白新町2-3-24",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0895/"
+}
+},
+{
+"shop": "肉のよしや",
+"company": "—",
+"ward": "北区",
+"addr": "北区葛塚3463",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0832/"
+}
+},
+{
+"shop": "sweets＆cafe Fika",
+"company": "—",
+"ward": "北区",
+"addr": "北区木崎2237-6",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0818/"
+}
+},
+{
+"shop": "越後酒造場",
+"company": "—",
+"ward": "北区",
+"addr": "北区葛塚3306-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "酒",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0622/",
+"自社サイト": "http://echigoshuzojo.co.jp/"
+}
+},
+{
+"shop": "有限会社アド・グッズ",
+"company": "有限会社アド・グッズ",
+"ward": "北区",
+"addr": "北区早通北4-4-16",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0179/"
+}
+},
+{
+"shop": "株式会社 壱成",
+"company": "株式会社壱成",
+"ward": "北区",
+"addr": "北区朝日町2-13-17",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/issei/"
+}
+},
+{
+"shop": "濁川生産組合",
+"company": "濁川生産組合",
+"ward": "北区",
+"addr": "北区濁川291",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/nigorikawa-farm/"
+}
+},
+{
+"shop": "なかの牧場なちゅらるじぇらーと",
+"company": "—",
+"ward": "北区",
+"addr": "北区かぶとやま2丁目3-4 わくわくファーム豊栄店内",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/nakano-gelate/"
+}
+},
+{
+"shop": "メガネ農園",
+"company": "—",
+"ward": "東区",
+"addr": "東区海老ケ瀬新町16-10",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1198/"
+}
+},
+{
+"shop": "にいがた食の陣実行委員会",
+"company": "にいがた食の陣実行委員会",
+"ward": "東区",
+"addr": "東区東明3-10-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1171/"
+}
+},
+{
+"shop": "HARU",
+"company": "—",
+"ward": "東区",
+"addr": "東区寺山1丁目19-30",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1194/"
+}
+},
+{
+"shop": "新潟銘茶 浅川園",
+"company": "—",
+"ward": "東区",
+"addr": "東区卸新町2-848-7",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1190/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "こなべパスタ",
+"company": "—",
+"ward": "東区",
+"addr": "東区大山1-7-23",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1158/"
+}
+},
+{
+"shop": "ジェラテリア・カフェ Vivace",
+"company": "—",
+"ward": "東区",
+"addr": "東区東中野山1-11-7",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1094/"
+}
+},
+{
+"shop": "Can-Peak",
+"company": "—",
+"ward": "東区",
+"addr": "東区新松崎新松崎2-7-5",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1081/"
+}
+},
+{
+"shop": "極生ぷりん専門店しの田",
+"company": "—",
+"ward": "東区",
+"addr": "東区山の下町7-25 T：EASTビル1-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1058/"
+}
+},
+{
+"shop": "マイコロジーテクノ",
+"company": "—",
+"ward": "東区",
+"addr": "東区山木戸8-4-8",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1034/"
+}
+},
+{
+"shop": "越後漬物工房 舞舞",
+"company": "—",
+"ward": "東区",
+"addr": "東区南紫竹1-10-4",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0868/"
+}
+},
+{
+"shop": "万越屋",
+"company": "—",
+"ward": "東区",
+"addr": "東区船江町1-47-16",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0893/"
+}
+},
+{
+"shop": "和縁",
+"company": "—",
+"ward": "東区",
+"addr": "東区竹尾卸新町801-5",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0835/"
+}
+},
+{
+"shop": "株式会社山ノ下納豆",
+"company": "株式会社山ノ下納豆",
+"ward": "東区",
+"addr": "東区山木戸7丁目6-47",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/yamanoshita/"
+}
+},
+{
+"shop": "越後精米",
+"company": "—",
+"ward": "東区",
+"addr": "東区松園1-9-25",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0814/"
+}
+},
+{
+"shop": "twig（トゥイッグ）",
+"company": "—",
+"ward": "東区",
+"addr": "東区船江町1丁目50-10",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0610/"
+}
+},
+{
+"shop": "新潟養蜂",
+"company": "—",
+"ward": "東区",
+"addr": "東区逢谷内2-7-17",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0503/"
+}
+},
+{
+"shop": "キャンドル工房mimin",
+"company": "—",
+"ward": "東区",
+"addr": "東区藤見町2-4-49",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/candlemimin/"
+}
+},
+{
+"shop": "有限会社 宮崎商店",
+"company": "有限会社宮崎商店",
+"ward": "東区",
+"addr": "東区津島屋7-52-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "水産",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/miyazakisyouten/"
+}
+},
+{
+"shop": "ゆるまるん",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区学校町通",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1220/"
+}
+},
+{
+"shop": "NajiraGames",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区東大通1丁目 2-23 北陸ビル9F",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1238/"
+}
+},
+{
+"shop": "dessert cafe marutoshikaku",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区西堀通4番町259-58西堀青藍館1階101",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1226/"
+}
+},
+{
+"shop": "アソールファーム",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区南笹口1-1-38 コープオリンピア808",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1202/"
+}
+},
+{
+"shop": "ひとつぼし雑貨店",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区沼垂東3丁目5-22",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1208/"
+}
+},
+{
+"shop": "OldtownDessertCompany",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区沼垂東3‐5‐33",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1216/"
+}
+},
+{
+"shop": "お菓子工房-kuu-",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区姥ヶ山4丁目19-1レジデンス桜ヶ丘A101",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1217/"
+}
+},
+{
+"shop": "FD STORE",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区関新2-1-73 新潟ダイカンプラザ遊学館506",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1213/"
+}
+},
+{
+"shop": "旬食酒好Yuu",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区米山1-8-11 本成寺ビル3階",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1197/"
+}
+},
+{
+"shop": "料亭 鍋茶屋",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区東堀通八番町1420",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1160/"
+}
+},
+{
+"shop": "魚や片桐寅吉",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区花園1-1-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "水産",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/chuosuisanichiba/"
+}
+},
+{
+"shop": "Me TIME FOODS",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区紫竹山6-3-5 開志専門職大学2F",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1093/"
+}
+},
+{
+"shop": "古町物語",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区花園1-2-2 花園ビル",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1013/"
+}
+},
+{
+"shop": "新潟グランドホテル",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区下大川前3ノ町2230",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1062/"
+}
+},
+{
+"shop": "わっぱ飯 田舎家",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区古町通9番町1457",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0963/"
+}
+},
+{
+"shop": "中華そば石黒",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区弁天橋通1-4-33",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0943/"
+}
+},
+{
+"shop": "DRESS",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区天神2-1-28 アクシス駅南イースト 1F",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0903/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "新潟交通商事",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区幸西3丁目5番3号",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0876/"
+}
+},
+{
+"shop": "米粉スイーツ工房SUNNYDAYS",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区上所中3-12-24",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0886/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "珈琲倶楽部",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区新和1丁目10番9号",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0840/"
+}
+},
+{
+"shop": "パン工房ドリームハウス",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区夕栄町4485",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0827/"
+}
+},
+{
+"shop": "LEATHER TRAMP KITCHEN",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区万代5-3-28",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0794/"
+}
+},
+{
+"shop": "内野屋商店",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区東出来島12－21",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0806/"
+}
+},
+{
+"shop": "千原ファーム",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区長潟818-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0728/"
+}
+},
+{
+"shop": "山治園",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区沼垂東4-2-31",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0757/"
+}
+},
+{
+"shop": "バターフィールド",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区清五郎123",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0532/"
+}
+},
+{
+"shop": "LA CUCINA LIBERA",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区米山2丁目2-5",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0558/"
+}
+},
+{
+"shop": "高取商店",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区赤坂町1-3207",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0730/"
+}
+},
+{
+"shop": "新潟風物詩ももふく",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区米山2丁目3-4",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0685/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "元祖新潟濃厚味噌 東横",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区紫竹山1-8-20",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0669/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "Canele de CHIANTI",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区花園1-1-1CoCoLo新潟 2F東",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0715/"
+}
+},
+{
+"shop": "Bake A.",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区営所通2番町692-21",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0710/"
+}
+},
+{
+"shop": "大橋洋食器",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区本町通8番町1352",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "キッチン・家具・生活",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0227/"
+}
+},
+{
+"shop": "IJIRUSHI insieme",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区水島町11-11",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0636/"
+}
+},
+{
+"shop": "ちゃんこ大翔龍",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区天神2-1-3",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0625/"
+}
+},
+{
+"shop": "美豆伎庵 金巻屋",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区古町3-650",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0590/"
+}
+},
+{
+"shop": "ウオショク",
+"company": "株式会社ウオショク",
+"ward": "中央区",
+"addr": "中央区鳥屋野450-1",
+"tel": "025-283-7288",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": true,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0637/",
+"楽天": "https://www.rakuten.co.jp/kogaboku/"
+}
+},
+{
+"shop": "新潟東映ホテル",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区弁天2-1-6",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0570/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "ティオペペ",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区東中通1番町1-86-81",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0406/"
+}
+},
+{
+"shop": "ロシアチョコレートの店マツヤ",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区幸西1丁目2番6",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0598/"
+}
+},
+{
+"shop": "羊まくら素肌呼吸",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区東出来島12-23",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0564/"
+}
+},
+{
+"shop": "新潟自然食品館",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区姥ケ山4丁目19-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0607/"
+}
+},
+{
+"shop": "馬場農園",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区長潟792",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0597/"
+}
+},
+{
+"shop": "新潟の味処 みさわ",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区白山浦1-369",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0550/"
+}
+},
+{
+"shop": "FUNKY TURKEY",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区西堀前通8番町1522",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0542/"
+}
+},
+{
+"shop": "うまいもの篠原",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区東堀通5番町424-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "水産",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0539/"
+}
+},
+{
+"shop": "越後せんべい浜島",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区東湊町通2-2551",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0560/"
+}
+},
+{
+"shop": "元祖焼餃子 ことぶき屋本店",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区東堀前通9番町1321",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0543/"
+}
+},
+{
+"shop": "ブルストロック",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区文京町10-5",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0523/"
+}
+},
+{
+"shop": "有限会社高田屋",
+"company": "有限会社高田屋",
+"ward": "中央区",
+"addr": "中央区花園2-1-32",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0526/"
+}
+},
+{
+"shop": "さわ山",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区夕栄町4513",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0511/"
+}
+},
+{
+"shop": "冨士屋",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区古町通6番町978",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/fujiya/"
+}
+},
+{
+"shop": "パティスリー ル・デパー",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区高志2-9-15",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/patisserie-le-depart/"
+}
+},
+{
+"shop": "ベーカリー＆カフェ BAKE UP",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区長潟1026",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/bakeup/"
+}
+},
+{
+"shop": "ホテル イタリア軒",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区西堀通七番町1574番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/italiaken/"
+}
+},
+{
+"shop": "けんちゃん農場",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区長潟946",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/kenchannoujou/"
+}
+},
+{
+"shop": "ホテル日航新潟",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区万代島5-1 ホテル日航新潟",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/hotelnikkoniigata/"
+}
+},
+{
+"shop": "株式会社 念吉",
+"company": "株式会社念吉",
+"ward": "中央区",
+"addr": "中央区沼垂東3-2-2",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/nenkichi/"
+}
+},
+{
+"shop": "真保餅屋",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区本町通十二番町2754番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/shimbomochiya/"
+}
+},
+{
+"shop": "里仙",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区古町通13番町2850-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/satosen/"
+}
+},
+{
+"shop": "せきとり",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区窪田町3丁目199番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/sekitori/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "三旺食品合資会社",
+"company": "三旺食品合資会社",
+"ward": "中央区",
+"addr": "中央区鏡が岡2-22",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/sanousyokuhin/"
+}
+},
+{
+"shop": "とんかつ太郎",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区古町通6番町973",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/tonkatsutarou/"
+}
+},
+{
+"shop": "百花園",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区営所通1番町321",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/hyakkaen/"
+}
+},
+{
+"shop": "株式会社 坂井漬物商店",
+"company": "株式会社坂井漬物商店",
+"ward": "中央区",
+"addr": "中央区秣川岸通1-2305",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/sakai/"
+}
+},
+{
+"shop": "感動屋",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区亀田大月2-3-32",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1211/"
+}
+},
+{
+"shop": "たなか農園",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区横越川根町1-11-28",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1230/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "くまの森ファーム",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区茅野山1-2-8",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1207/"
+}
+},
+{
+"shop": "亀田縞",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区曙町3-6-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "衣料・服飾",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1212/"
+}
+},
+{
+"shop": "坂井ファームクリエイト",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区嘉木12",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1150/"
+}
+},
+{
+"shop": "89CHEESECAKE",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区天野3-8-18",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1125/"
+}
+},
+{
+"shop": "新潟亀田蒸溜所",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区亀田工業団地1丁目3-5",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "酒",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1104/"
+}
+},
+{
+"shop": "あけぼのクラブ",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区袋津3-1-18",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0677/"
+}
+},
+{
+"shop": "エフ小杉",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1091/"
+}
+},
+{
+"shop": "ドリーム和田",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区和田76",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1076/"
+}
+},
+{
+"shop": "仙六農園",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区二本木1-6-38",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1032/"
+}
+},
+{
+"shop": "ジェラート＆カフェ YOSHIDA",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区丸山ノ内善之亟組字前郷391-3",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0972/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "まつだ農園",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区天野1196",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0917/"
+}
+},
+{
+"shop": "サンキョーフーズ",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区割野7033番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0902/"
+}
+},
+{
+"shop": "堀川鮮魚株式会社",
+"company": "堀川鮮魚株式会社",
+"ward": "江南区",
+"addr": "江南区茗荷谷711番地 新潟市中央卸売市場内",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "水産",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0750/"
+}
+},
+{
+"shop": "山倉農園",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区西山162",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0747/"
+}
+},
+{
+"shop": "梨の宇野農園",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区木津1-15-40",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0687/"
+}
+},
+{
+"shop": "割烹ふじ田",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区沢海3-13-11",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0639/"
+}
+},
+{
+"shop": "塚田牛乳",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区木津工業団地2-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0657/"
+}
+},
+{
+"shop": "株式会社菓匠 たくみや",
+"company": "株式会社菓匠たくみや",
+"ward": "江南区",
+"addr": "江南区江口2071-2",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0624/"
+}
+},
+{
+"shop": "ローストカフェ",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区曙町3-2-7",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0536/"
+}
+},
+{
+"shop": "友坂佛壇店",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区酒屋町547-3",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/tomosakabutsudan/"
+}
+},
+{
+"shop": "石本商店",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区袋津2-3-11",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/ishimotosyouten/"
+}
+},
+{
+"shop": "鳥梅",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区曙町4-9-2",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/toriume/"
+}
+},
+{
+"shop": "マルクニ農園",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区茅野山2-6-31",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/marukuni/"
+}
+},
+{
+"shop": "亀田観光ブルーベリー園",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区日水1-5-3",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/nekothecat/"
+}
+},
+{
+"shop": "農事組合法人 あしぬまカントリー",
+"company": "農事組合法人あしぬまカントリー",
+"ward": "江南区",
+"addr": "江南区長潟1丁目5番14号",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/ashinuma/"
+}
+},
+{
+"shop": "ロイアルヒルホルスタインズ",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区横越東町2-24-2",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/loyalhill/"
+}
+},
+{
+"shop": "窪田梨果園",
+"company": "—",
+"ward": "江南区",
+"addr": "江南区茅野山2-6-22",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/kubota/"
+}
+},
+{
+"shop": "丸榮製粉株式会社",
+"company": "丸榮製粉株式会社",
+"ward": "江南区",
+"addr": "江南区東船場5-1-7",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/maruei/"
+}
+},
+{
+"shop": "新津焼 西潟本陶 もえぎ陶房",
+"company": "—",
+"ward": "秋葉区",
+"addr": "秋葉区滝谷本町2-5",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1239/"
+}
+},
+{
+"shop": "がわそ兵衛門ファーム",
+"company": "—",
+"ward": "秋葉区",
+"addr": "秋葉区蒲ヶ沢693",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1135/"
+}
+},
+{
+"shop": "ファーム香福",
+"company": "—",
+"ward": "秋葉区",
+"addr": "秋葉区小須戸3023",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1085/"
+}
+},
+{
+"shop": "秋葉硝子",
+"company": "—",
+"ward": "秋葉区",
+"addr": "秋葉区草水町2-12-32",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0985/"
+}
+},
+{
+"shop": "サンカントピュール",
+"company": "—",
+"ward": "秋葉区",
+"addr": "秋葉区美善1-3-8",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0954/"
+}
+},
+{
+"shop": "新津居酒屋 和厨",
+"company": "—",
+"ward": "秋葉区",
+"addr": "秋葉区美幸町1-2-26",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0856/"
+}
+},
+{
+"shop": "TEA CAFE DAKKE",
+"company": "—",
+"ward": "秋葉区",
+"addr": "秋葉区川口435-8",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0869/"
+}
+},
+{
+"shop": "にいつフードセンター",
+"company": "—",
+"ward": "秋葉区",
+"addr": "秋葉区新津山谷南4537番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0695/"
+}
+},
+{
+"shop": "川崎農園",
+"company": "—",
+"ward": "秋葉区",
+"addr": "秋葉区山谷町3-12-14",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/kawasakinouen/"
+}
+},
+{
+"shop": "高野農園",
+"company": "—",
+"ward": "秋葉区",
+"addr": "秋葉区大秋5572",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/takanonouen/"
+}
+},
+{
+"shop": "有限会社 本間製菓",
+"company": "有限会社本間製菓",
+"ward": "秋葉区",
+"addr": "秋葉区草水町1丁目9番地1号",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/honmaseika/"
+}
+},
+{
+"shop": "にんにくの新井田",
+"company": "—",
+"ward": "南区",
+"addr": "南区田中78",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0803/"
+}
+},
+{
+"shop": "SUGOI SPICE",
+"company": "—",
+"ward": "南区",
+"addr": "南区戸頭2905-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1070/"
+}
+},
+{
+"shop": "中村農園",
+"company": "—",
+"ward": "南区",
+"addr": "南区茨曽根6181",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0989/"
+}
+},
+{
+"shop": "株式会社MoonLagoon",
+"company": "株式会社MoonLagoon",
+"ward": "南区",
+"addr": "南区木滑2101-3",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0918/"
+}
+},
+{
+"shop": "有限会社道潟農場",
+"company": "有限会社道潟農場",
+"ward": "南区",
+"addr": "南区茨曽根2894-2",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0822/"
+}
+},
+{
+"shop": "高清農園",
+"company": "—",
+"ward": "南区",
+"addr": "南区庄瀬6697",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0723/"
+}
+},
+{
+"shop": "まさと君農園",
+"company": "—",
+"ward": "南区",
+"addr": "南区浦梨786",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0716/"
+}
+},
+{
+"shop": "竹内農園",
+"company": "—",
+"ward": "南区",
+"addr": "南区釣寄新142",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0707/"
+}
+},
+{
+"shop": "らーめん八 家ラー専門店",
+"company": "—",
+"ward": "南区",
+"addr": "南区新飯田2262-8",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0671/"
+}
+},
+{
+"shop": "田辺農園",
+"company": "—",
+"ward": "南区",
+"addr": "南区上曲通131",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0678/"
+}
+},
+{
+"shop": "御菓子司まさや",
+"company": "—",
+"ward": "南区",
+"addr": "南区月潟13",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0655/"
+}
+},
+{
+"shop": "SHIRONE meat Labo. ROOTs",
+"company": "—",
+"ward": "南区",
+"addr": "南区茨曽根5093",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0505/"
+}
+},
+{
+"shop": "谷川ファーム",
+"company": "—",
+"ward": "南区",
+"addr": "南区戸頭799",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0515/"
+}
+},
+{
+"shop": "越後しらたま本舗",
+"company": "—",
+"ward": "南区",
+"addr": "南区新飯田659番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/echigoshiratama/"
+}
+},
+{
+"shop": "長井農園",
+"company": "—",
+"ward": "南区",
+"addr": "南区七軒町5-2-6",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/nagainouen/"
+}
+},
+{
+"shop": "麺匠高野",
+"company": "—",
+"ward": "南区",
+"addr": "南区下塩俵1078番地1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/menshoutakano/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "長谷川農園",
+"company": "—",
+"ward": "南区",
+"addr": "南区大郷629",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/hasegawanouen/"
+}
+},
+{
+"shop": "有限会社 えいか",
+"company": "有限会社えいか",
+"ward": "南区",
+"addr": "南区下曲通120-4",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/nouen-eika/"
+}
+},
+{
+"shop": "株式会社 麩じん",
+"company": "株式会社麩じん",
+"ward": "南区",
+"addr": "南区和泉509-11",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/fujin/"
+}
+},
+{
+"shop": "うさぎ村の葡萄畑",
+"company": "—",
+"ward": "南区",
+"addr": "南区兎新田304",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/usagimura/"
+}
+},
+{
+"shop": "はちしろ枝豆農園",
+"company": "—",
+"ward": "南区",
+"addr": "南区西白根1812",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/hachishiro/"
+}
+},
+{
+"shop": "ぶどう屋 惣平",
+"company": "—",
+"ward": "南区",
+"addr": "南区東笠巻新田321",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/soubei/"
+}
+},
+{
+"shop": "袖山米穀農産（袖山商店）",
+"company": "—",
+"ward": "南区",
+"addr": "南区上下諏訪木131",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/sodeyama/"
+}
+},
+{
+"shop": "黒埼板井っ娘枝豆生産組合",
+"company": "黒埼板井っ娘枝豆生産組合",
+"ward": "西区",
+"addr": "西区板井584",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1240/"
+}
+},
+{
+"shop": "農園Home",
+"company": "—",
+"ward": "西区",
+"addr": "西区金巻新田49",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1206/"
+}
+},
+{
+"shop": "新潟大学農学部附属農場",
+"company": "新潟大学農学部附属農場",
+"ward": "西区",
+"addr": "西区五十嵐2の町8050",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1083/"
+}
+},
+{
+"shop": "HiroTiramisu",
+"company": "—",
+"ward": "西区",
+"addr": "西区山田662-3 和泉ビル204",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1063/"
+}
+},
+{
+"shop": "鶴久肉店",
+"company": "—",
+"ward": "西区",
+"addr": "西区浦山4-13-23",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0614/"
+}
+},
+{
+"shop": "生わらび餅専門店 新雪",
+"company": "—",
+"ward": "西区",
+"addr": "西区小針3-26-19",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1073/"
+}
+},
+{
+"shop": "MONJI FARM",
+"company": "—",
+"ward": "西区",
+"addr": "西区山崎1063",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1043/"
+}
+},
+{
+"shop": "アサツマファーム",
+"company": "—",
+"ward": "西区",
+"addr": "西区中権寺2511",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1011/"
+}
+},
+{
+"shop": "河合農場",
+"company": "—",
+"ward": "西区",
+"addr": "西区赤塚2731",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1012/"
+}
+},
+{
+"shop": "ヒロファーム",
+"company": "—",
+"ward": "西区",
+"addr": "西区赤塚4246",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1003/"
+}
+},
+{
+"shop": "なおべぇふぁーむ",
+"company": "—",
+"ward": "西区",
+"addr": "西区神山14",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1025/"
+}
+},
+{
+"shop": "焼き芋専門店 ぼくのさつまいも",
+"company": "—",
+"ward": "西区",
+"addr": "西区五十嵐中島4-23-14",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1001/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "ちはる農園",
+"company": "—",
+"ward": "西区",
+"addr": "西区金巻1835",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0888/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "コカ・コーラボトラーズジャパン",
+"company": "—",
+"ward": "西区",
+"addr": "西区善久630-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0894/"
+}
+},
+{
+"shop": "砂丘の愛 やまもと農園",
+"company": "—",
+"ward": "西区",
+"addr": "西区谷内1848",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0880/"
+}
+},
+{
+"shop": "食のアトリエtutae",
+"company": "—",
+"ward": "西区",
+"addr": "西区山田2310番地1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0774/"
+}
+},
+{
+"shop": "真田農園",
+"company": "—",
+"ward": "西区",
+"addr": "西区赤塚4053",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0772/"
+}
+},
+{
+"shop": "有限会社ナカノフーズ",
+"company": "有限会社ナカノフーズ",
+"ward": "西区",
+"addr": "西区赤塚2712-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0778/"
+}
+},
+{
+"shop": "むらさきfarm",
+"company": "—",
+"ward": "西区",
+"addr": "西区小針3-15-29",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0697/"
+}
+},
+{
+"shop": "株式会社TCB",
+"company": "株式会社TCB",
+"ward": "西区",
+"addr": "西区坂井819",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0653/"
+}
+},
+{
+"shop": "よね一（よねいち）",
+"company": "—",
+"ward": "西区",
+"addr": "西区的場流通1-3-11",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0605/"
+}
+},
+{
+"shop": "のんぴーりサックス",
+"company": "—",
+"ward": "西区",
+"addr": "西区小針5-26-2",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/nonpirisakkusu/"
+}
+},
+{
+"shop": "アフリカパン ナミテテ",
+"company": "—",
+"ward": "西区",
+"addr": "西区みずき野1-12-8",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/namitete/"
+}
+},
+{
+"shop": "サンクスファーム黒鳥",
+"company": "—",
+"ward": "西区",
+"addr": "西区黒鳥4761",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/thanksfarm/"
+}
+},
+{
+"shop": "塩川酒造株式会社",
+"company": "塩川酒造株式会社",
+"ward": "西区",
+"addr": "西区内野町662番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "酒",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/shiokawashuzo/"
+}
+},
+{
+"shop": "つよしファーム",
+"company": "—",
+"ward": "西区",
+"addr": "西区神山40",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/tsuyoshifarm/"
+}
+},
+{
+"shop": "野崎農園",
+"company": "—",
+"ward": "西区",
+"addr": "西区小平方1650",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/nozaki/"
+}
+},
+{
+"shop": "高井商店",
+"company": "—",
+"ward": "西区",
+"addr": "西区内野町480番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/takai/"
+}
+},
+{
+"shop": "ら～めん処 がんこ屋",
+"company": "—",
+"ward": "西区",
+"addr": "西区小新西3-15-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/gankoya/"
+}
+},
+{
+"shop": "与六ぶどう園",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区潟浦新2435-2",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1248/"
+}
+},
+{
+"shop": "サンサンファームおぐろ",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区漆山2838",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1232/"
+}
+},
+{
+"shop": "for SMiLE lab",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区巻甲4460-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1152/"
+}
+},
+{
+"shop": "アグリ善光寺",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区善光寺23番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1084/"
+}
+},
+{
+"shop": "ワクイ食品研究所",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区巻甲3320 むつう整体まき内",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0995/"
+}
+},
+{
+"shop": "LIFE UW FACTORY",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区小吉1930-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s1008/"
+}
+},
+{
+"shop": "おけやろん",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区河井2689",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0996/"
+}
+},
+{
+"shop": "亭蔵ブルーベリー",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区栄336",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0925/"
+}
+},
+{
+"shop": "株式会社保苅米穀",
+"company": "株式会社保苅米穀",
+"ward": "西蒲区",
+"addr": "西蒲区善光寺北畑627番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0891/"
+}
+},
+{
+"shop": "割烹えびすや",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区松野尾2958",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0909/"
+}
+},
+{
+"shop": "BIG BRIDGE FARM",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区稲島1636",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0971/"
+}
+},
+{
+"shop": "フェルミエ",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区越前浜4501番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "酒",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0937/"
+}
+},
+{
+"shop": "越乃又蔵ぶどう園",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区小吉1757",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0961/"
+}
+},
+{
+"shop": "ホーマー農場",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区上小吉1778",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0945/"
+}
+},
+{
+"shop": "Life＆Life",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区巻東町187",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0897/"
+}
+},
+{
+"shop": "山賀農園",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区松野尾2863",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0813/"
+}
+},
+{
+"shop": "藤田農園（藤田一雄）",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区鱸332",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0783/"
+}
+},
+{
+"shop": "小富士屋",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区岩室温泉576",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/s0732/"
+}
+},
+{
+"shop": "河村農場",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区松山1338",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/kawamuranoujou/"
+}
+},
+{
+"shop": "小林園芸",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区巻東町38",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/kobayashiengei/"
+}
+},
+{
+"shop": "北越いちば",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区巻甲12010番地",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/hokuetsuichiba/"
+}
+},
+{
+"shop": "マルニチガイ・丁字",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区巻東町128-1",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/marunichigai/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "有限会社 本間屋",
+"company": "有限会社本間屋",
+"ward": "西蒲区",
+"addr": "西蒲区福井1845",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/honmaya/"
+}
+},
+{
+"shop": "五十嵐利兵衛農園",
+"company": "—",
+"ward": "西蒲区",
+"addr": "西蒲区針ケ曽根142-47",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"新潟直送計画": "https://shop.ng-life.jp/rihei/"
+}
+},
+{
+"shop": "LAGOON BREWERY",
+"company": "LAGOON BREWERY合同会社",
+"ward": "北区",
+"addr": "北区前新田乙576-3",
+"tel": "025-250-0069",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "酒",
+"links": {
+"BASE": "https://lagoonbrew.official.ec/"
+}
+},
+{
+"shop": "ピカイチ公式ショッピングサイト",
+"company": "株式会社ピカイチ",
+"ward": "中央区",
+"addr": "中央区東大通1-7-10 新潟セントラルビル8F",
+"tel": "0120-425-700",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"自社サイト": "https://www.pikaichi.co.jp/"
+}
+},
+{
+"shop": "Befcoオンラインショップ",
+"company": "株式会社栗山米菓",
+"ward": "北区",
+"addr": "北区新崎2661番地",
+"tel": "025-259-2801",
+"carriers": [
+"佐川"
+],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"自社サイト": "https://befco-shop.jp/"
+}
+},
+{
+"shop": "あぽろん",
+"company": "あぽろん株式会社",
+"ward": "中央区",
+"addr": "中央区東堀前通5-409-1",
+"tel": "025-229-4134",
+"carriers": [
+"ヤマト",
+"佐川"
+],
+"jp": "",
+"cool": false,
+"genre": "本・趣味・文具",
+"links": {
+"自社サイト": "https://apollonmusic.com/",
+"Yahoo!": "http://store.shopping.yahoo.co.jp/apollon/",
+"Amazon": "https://www.amazon.co.jp/s?me=A1MH129ZLY186C"
+}
+},
+{
+"shop": "釣具のフィッシャーズ",
+"company": "株式会社ホンマ",
+"ward": "西区",
+"addr": "西区山田415",
+"tel": "025-377-1008",
+"carriers": [
+"ヤマト",
+"佐川",
+"日本郵便"
+],
+"jp": "",
+"cool": false,
+"genre": "工具・車・スポーツ",
+"links": {
+"楽天": "https://www.rakuten.co.jp/fishers/"
+}
+},
+{
+"shop": "スズキ食堂車",
+"company": "鈴木幹子",
+"ward": "中央区",
+"addr": "中央区学校町通2-5299-3",
+"tel": "",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"BASE": "https://syokudousya.thebase.in/"
+}
+},
+{
+"shop": "sheyeye records",
+"company": "sheyeye records",
+"ward": "中央区",
+"addr": "中央区東堀前通1-353",
+"tel": "025-201-9116",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "本・趣味・文具",
+"links": {
+"カラーミー": "https://www.sheyeye.com/"
+}
+},
+{
+"shop": "犬・猫のフードPetLEA楽天市場店",
+"company": "ケーティーコモディティ株式会社",
+"ward": "中央区",
+"addr": "中央区鳥屋野南3-10-26 ウェルズ21とやのみなみB-5",
+"tel": "080-7140-4473",
+"carriers": [
+"ヤマト",
+"日本郵便"
+],
+"jp": "M",
+"cool": true,
+"genre": "雑貨・その他",
+"links": {
+"楽天": "https://www.rakuten.co.jp/petlea/"
+}
+},
+{
+"shop": "Siki [シキ] flower＆break",
+"company": "Siki [シキ] flower＆break",
+"ward": "東区",
+"addr": "東区寺山1-20-29",
+"tel": "025-364-0201",
+"carriers": [
+"佐川"
+],
+"jp": "",
+"cool": true,
+"genre": "農園・花・園芸",
+"links": {
+"BASE": "https://sikiflower.base.shop/"
+}
+},
+{
+"shop": "井出養蜂園",
+"company": "株式会社井出養蜂園",
+"ward": "西区",
+"addr": "西区西有明町1-29",
+"tel": "025-266-1319",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"自社サイト": "https://ide-beefarm.com/"
+}
+},
+{
+"shop": "紡ぐ珈琲と。",
+"company": "佐渡ホンダ販売株式会社",
+"ward": "東区",
+"addr": "東区松崎1-18-6",
+"tel": "025-311-7086",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"BASE": "https://tsumugu2019.base.shop/"
+}
+},
+{
+"shop": "Hakko Chaud（ハッコーショオ／ドメーヌ・ショオ）",
+"company": "Kobayashi Winery株式会社",
+"ward": "西蒲区",
+"addr": "西蒲区角田浜1700-1",
+"tel": "0256-70-2266",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "酒",
+"links": {
+"BASE": "https://domainechaud.thebase.in/"
+}
+},
+{
+"shop": "カンティーナ・ジーオセット（Cantina Zio Setto）",
+"company": "株式会社セトワイナリー",
+"ward": "西蒲区",
+"addr": "西蒲区角田浜1697-1",
+"tel": "0256-78-8065",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "酒",
+"links": {
+"BASE": "https://ziosetto.base.shop/"
+}
+},
+{
+"shop": "古町神明宮オンライン授与所",
+"company": "古町神明宮",
+"ward": "中央区",
+"addr": "中央区古町通一番町500",
+"tel": "025-223-2309",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "本・趣味・文具",
+"links": {
+"STORES": "https://furumachishinmeigu.stores.jp/"
+}
+},
+{
+"shop": "カナーズ・ジャパン（ランドセルリメイク＆本革アイテム）",
+"company": "カナーズ・ジャパン株式会社",
+"ward": "西蒲区",
+"addr": "西蒲区升岡161-1",
+"tel": "0256-77-5012",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "衣料・服飾",
+"links": {
+"自社サイト": "https://canars.jp/"
+}
+},
+{
+"shop": "ルサンクワイナリー",
+"company": "ルサンクワイナリー株式会社",
+"ward": "西蒲区",
+"addr": "西蒲区角田浜1693",
+"tel": "0256-78-8490",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": false,
+"genre": "酒",
+"links": {
+"自社サイト": "https://lecinqwinery.com/"
+}
+},
+{
+"shop": "レスカルゴ（l'escargot）",
+"company": "株式会社l'escargot",
+"ward": "西蒲区",
+"addr": "西蒲区越前浜4477",
+"tel": "0256-77-2268",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "酒",
+"links": {
+"自社サイト": "https://www.lescargot.jp/shop"
+}
+},
+{
+"shop": "ぼんさい屋とき",
+"company": "ぼんさい屋とき",
+"ward": "江南区",
+"addr": "江南区松山112-4",
+"tel": "050-3748-2992",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"BASE": "https://bonsaiyatoki.shopselect.net/"
+}
+},
+{
+"shop": "ミリオンペット",
+"company": "株式会社ミリオンペット",
+"ward": "東区",
+"addr": "東区逢谷内2-3-11",
+"tel": "025-270-1446",
+"carriers": [
+"佐川"
+],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"自社サイト": "https://www.million-pet.jp/"
+}
+},
+{
+"shop": "ぽんしゅ館",
+"company": "株式会社ぽんしゅ館新潟",
+"ward": "中央区",
+"addr": "中央区花園1-96-47",
+"tel": "025-240-7090",
+"carriers": [],
+"jp": "",
+"cool": true,
+"genre": "食品・ギフト",
+"links": {
+"自社サイト": "https://shop.ponshukan.com"
+}
+},
+{
+"shop": "伏見蒲鉾",
+"company": "伏見蒲鉾株式会社",
+"ward": "北区",
+"addr": "北区新崎699-12",
+"tel": "025-258-5112",
+"carriers": [
+"ヤマト",
+"佐川"
+],
+"jp": "",
+"cool": true,
+"genre": "水産",
+"links": {
+"自社サイト": "https://fushimikamaboko.com/"
+}
+},
+{
+"shop": "石山味噌醤油",
+"company": "石山味噌醤油株式会社",
+"ward": "南区",
+"addr": "南区西萱場478",
+"tel": "025-375-5589",
+"carriers": [
+"ヤマト",
+"佐川"
+],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"カラーミー": "https://ishiyama-m-s.shop-pro.jp/"
+}
+},
+{
+"shop": "扇弥商店",
+"company": "有限会社扇弥商店",
+"ward": "南区",
+"addr": "南区月潟1524",
+"tel": "025-375-2002",
+"carriers": [],
+"jp": "",
+"cool": true,
+"genre": "食品・ギフト",
+"links": {
+"STORES": "https://miso-shouyu.stores.jp/"
+}
+},
+{
+"shop": "岡田蝋燭店",
+"company": "岡田蝋燭店",
+"ward": "中央区",
+"addr": "中央区上近江1-6-40",
+"tel": "025-256-8356",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"BASE": "https://okadarousoku.base.shop/"
+}
+},
+{
+"shop": "薪窯パン舎ほほ",
+"company": "薪窯パン舎ほほ",
+"ward": "西区",
+"addr": "西区赤塚1566",
+"tel": "",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": true,
+"genre": "菓子・飲料",
+"links": {
+"BASE": "https://makigamahoho.base.shop/"
+}
+},
+{
+"shop": "あたりめのハレリー",
+"company": "ハレリー",
+"ward": "中央区",
+"addr": "中央区大島167-16",
+"tel": "025-281-0081",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"BASE": "https://halery.shopselect.net/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "グリーンファクトリー（GREEN 3 GIRLS）",
+"company": "有限会社グリーンファクトリー",
+"ward": "南区",
+"addr": "南区鷲ノ木新田960",
+"tel": "025-362-5880",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"自社サイト": "http://www.greenfactory.co.jp/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "ひかり畑",
+"company": "ひかり畑",
+"ward": "江南区",
+"addr": "江南区沢海2919-2",
+"tel": "",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "パンステージ メリーズ",
+"company": "株式会社メリーズ",
+"ward": "東区",
+"addr": "東区東明6-678-1",
+"tel": "025-257-1212",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "あやめコーポレーション",
+"company": "株式会社あやめコーポレーション",
+"ward": "西区",
+"addr": "西区寺尾東1-5-35",
+"tel": "025-201-9893",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"自社サイト": "http://ayame-poppo.com/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "こかげカフェ",
+"company": "若山裕伸",
+"ward": "中央区",
+"addr": "中央区川岸町2-7-3-105",
+"tel": "050-3590-4402",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": true,
+"genre": "菓子・飲料",
+"links": {
+"BASE": "https://kokagecafe.theshop.jp/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "亀田縞 立川織物",
+"company": "立川織物",
+"ward": "江南区",
+"addr": "江南区袋津3-1-52",
+"tel": "025-381-3067",
+"carriers": [
+"ヤマト",
+"佐川",
+"日本郵便"
+],
+"jp": "M",
+"cool": false,
+"genre": "衣料・服飾",
+"links": {
+"自社サイト": "https://kamedajima-tachikawa.com/",
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "ALDANA（アルダナ）",
+"company": "ALDANA",
+"ward": "中央区",
+"addr": "中央区愛宕3-4-1 小菅ビル",
+"tel": "025-285-5855",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "工具・車・スポーツ",
+"links": {
+"自社サイト": "https://aldana.jp/shop_info/"
+}
+},
+{
+"shop": "アイテックサイトウ（新潟の眼鏡専門店）",
+"company": "有限会社アイテック・サイトウ",
+"ward": "東区",
+"addr": "東区北葉町11-7",
+"tel": "025-273-2917",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"BASE": "https://www.eye-tech.jp/law"
+}
+},
+{
+"shop": "ブーランジェリー リリッカ",
+"company": "株式会社キタカタ",
+"ward": "中央区",
+"addr": "中央区女池上山1-5-16",
+"tel": "025-285-8691",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "菓子・飲料",
+"links": {
+"BASE": "https://riricca.base.shop/"
+}
+},
+{
+"shop": "マックブランド",
+"company": "株式会社マックブランド",
+"ward": "東区",
+"addr": "東区",
+"tel": "",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"ガタ市": "https://gataichi.com/view/page/manufacturer"
+}
+},
+{
+"shop": "刃研ぎ屋 月（砥石専門店）",
+"company": "刃研ぎ屋 月",
+"ward": "江南区",
+"addr": "江南区横越川根町1-8-21",
+"tel": "",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "工具・車・スポーツ",
+"links": {
+"カラーミー": "https://hatogiyatuki.shop-pro.jp/"
+}
+},
+{
+"shop": "ササヌマ園芸センター",
+"company": "有限会社ササヌマ園芸センター",
+"ward": "秋葉区",
+"addr": "秋葉区新津東町3-5-19",
+"tel": "0250-24-0187",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"自社サイト": "https://shop.sasanuma-engei.com/"
+}
+},
+{
+"shop": "古着屋 芥",
+"company": "目黒達也",
+"ward": "中央区",
+"addr": "中央区沼垂東3-1-17",
+"tel": "",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "衣料・服飾",
+"links": {
+"BASE": "https://act2023.base.shop/"
+}
+},
+{
+"shop": "ピカリ産直市場 お冨さん",
+"company": "株式会社冨山",
+"ward": "中央区",
+"addr": "中央区万代島2-3 ピア万代内",
+"tel": "025-384-4077",
+"carriers": [
+"ヤマト"
+],
+"jp": "",
+"cool": true,
+"genre": "米・農産物",
+"links": {
+"自社サイト": "https://www.otomisan.com/"
+}
+},
+{
+"shop": "百笑市場 春夏秋冬",
+"company": "株式会社百笑市場 春夏秋冬",
+"ward": "東区",
+"addr": "東区逢谷内3丁目519-1",
+"tel": "025-275-1117",
+"carriers": [],
+"jp": "",
+"cool": true,
+"genre": "米・農産物",
+"links": {
+"Shopify": "https://hyakusyoichiba.jp/"
+}
+},
+{
+"shop": "産直とよさかげんき村",
+"company": "産直とよさかげんき村",
+"ward": "北区",
+"addr": "北区木崎778-38",
+"tel": "025-384-5008",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "米・農産物",
+"links": {
+"STORES": "https://toyosaka-genkimura.stores.jp/"
+}
+},
+{
+"shop": "one day store",
+"company": "株式会社run&run",
+"ward": "中央区",
+"addr": "中央区古町通3番町659",
+"tel": "025-374-7576",
+"carriers": [
+"佐川"
+],
+"jp": "",
+"cool": false,
+"genre": "衣料・服飾",
+"links": {
+"BASE": "https://onedaystore.official.ec/"
+}
+},
+{
+"shop": "Etcouleur",
+"company": "株式会社Etcouleur",
+"ward": "江南区",
+"addr": "江南区横越中央6-4-53",
+"tel": "",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "農園・花・園芸",
+"links": {
+"BASE": "https://etcouleur.base.shop/",
+"minne": "https://minne.com/@etcouleur"
+}
+},
+{
+"shop": "ブリッジにいがた",
+"company": "株式会社ブリッジにいがた",
+"ward": "中央区",
+"addr": "中央区東堀前通七番町1071番地1",
+"tel": "",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "食品・ギフト",
+"links": {
+"BASE": "https://niigata.base.ec/"
+}
+},
+{
+"shop": "にゃんか屋ほんぽ",
+"company": "—",
+"ward": "中央区",
+"addr": "中央区本町通6番町1106-3",
+"tel": "025-229-3242",
+"carriers": [],
+"jp": "",
+"cool": false,
+"genre": "雑貨・その他",
+"links": {
+"おちゃのこ": "http://nyankaya358.ocnk.net/"
+}
+}
+]

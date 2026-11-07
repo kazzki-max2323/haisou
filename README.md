@@ -1,6 +1,6 @@
 # haisou
 
-新潟市8区のEC事業者リスト（382件）を載せている静的ページ。
+新潟市8区のEC事業者リスト（653件）を載せている静的ページ。
 
 公開URL: https://kazzki-max2323.github.io/haisou/niigata-shops.html
 （https://kazzki-max2323.github.io/haisou/ を開いても同じページに移動する）

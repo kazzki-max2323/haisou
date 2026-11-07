@@ -221,6 +221,21 @@ for r in rows:
 _JP=dict(l.strip().split('|') for l in open('jp.txt',encoding='utf-8') if l.strip())
 for r in rows:
     if '日本郵便' in r['carriers']: r['jp']=_JP.get(r['id'],'')
+# Muse（2026/11/7）の追加調査：Claudeが確認したものだけ反映
+for oid,e in json.load(open('muse_edit.json',encoding='utf-8')).items():
+    r=byid[oid]
+    for k,v in e.items():
+        if k=='links': r['links'].update(v)
+        else: r[k]=v
+    if e.get('carriers') and r['cnote'] in ('記載なし',''): r['cnote']=''
+    if 'carriers' in e and '日本郵便' in r['carriers'] and 'jp' not in r: r['jp']=''
+for i,m in enumerate(json.load(open('muse_add.json',encoding='utf-8'))):
+    m=dict(m); m['id']='m-%d'%i; m['cnote']=''
+    if not CORP.search(m.get('company') or ''): m['tel']=''
+    if m['company'] in ('',None): m['company']='—'
+    if '日本郵便' not in m['carriers']: m.pop('jp',None)
+    if set(m['links'])=={'新潟直送計画'} and m['carriers']==['ヤマト']: m['cnote']=''
+    add(m)
 # fix: atechigo address (女池上山 is 中央区)
 for r in rows:
     if r['id']=='u-3': r['company']='峰乃白梅酒造株式会社'
@@ -233,5 +248,5 @@ rows.sort(key=lambda r:(wo.get(r['ward'],9),r['addr']))
 json.dump(rows,open('rows5.json','w'),ensure_ascii=False)
 from collections import Counter
 print(len(rows),Counter(r['ward'] for r in rows))
-print('carrier known',sum(1 for r in rows if r['carriers']),'fees',sum(1 for r in rows if r['fk']))
+print('carrier known',sum(1 for r in rows if r['carriers']),'fees',sum(1 for r in rows if r.get('fk')))
 print(Counter(r['genre'] for r in rows))
