@@ -115,7 +115,7 @@ input[type=search]{width:min(280px,100%)}
 .count{font-size:13px;color:var(--muted)}
 .btn{font:inherit;font-size:13px;padding:6px 12px;border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:8px;cursor:pointer}
 .tablebox{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:10px}
-table{border-collapse:collapse;width:100%;min-width:1040px}
+table{border-collapse:collapse;width:100%;min-width:900px}
 th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
 th{font-size:12px;color:var(--muted);font-weight:700;background:var(--panel);position:sticky;top:0;white-space:nowrap;vertical-align:middle}
 th button{all:unset;cursor:pointer}
@@ -140,6 +140,11 @@ td.addr{min-width:200px;max-width:260px}
 .dim{color:var(--muted)}
 tr.wardhead td{background:var(--bg);font-family:var(--f-display);font-weight:700;font-size:13px;padding:6px 12px;color:var(--accent)}
 .src{font-size:12px;white-space:nowrap} .src a{color:var(--accent)}
+.srcg{display:grid;grid-template-columns:repeat(2,max-content);gap:2px 12px}
+td.telc{text-align:center;padding-left:6px;padding-right:6px}
+a.telbtn{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;border:1px solid var(--accent);color:var(--accent);text-decoration:none;font-size:22px;font-family:"Hiragino Sans","Yu Gothic","Meiryo",sans-serif;font-weight:700;line-height:1}
+.tag.t-none{white-space:normal;display:inline-block;max-width:11em}
+a.telbtn:hover{background:var(--accent-soft)}
 .g{font-size:12px;color:var(--muted);white-space:nowrap}
 .mark{color:var(--accent);font-weight:700}
 .empty{padding:28px;text-align:center;color:var(--muted)}
@@ -308,8 +313,8 @@ footer{color:var(--muted);font-size:12px;display:grid;gap:4px}
         <th><button data-k="shop">ショップ／会社</button></th>
         <th><button data-k="genre">ジャンル</button></th>
         <th><button data-k="ch">出店先</button></th>
-        <th>電話</th>
         <th><button data-k="carriers">配送会社</button></th>
+        <th>電話</th>
         <th><button data-k="cool">クール</button></th>
       </tr></thead>
       <tbody id="tb"></tbody>
@@ -552,15 +557,15 @@ function render(){
   current.forEach(r=>{
     if(grouped && r.ward!==lastWard){lastWard=r.ward;const h=document.createElement("tr");h.className="wardhead";h.innerHTML=`<td colspan="7">${r.ward==="区不明"?"新潟市（区は非公開）":"新潟市"+r.ward}（${current.filter(x=>x.ward===r.ward).length}件）</td>`;tb.appendChild(h);}
     const tags=r.carriers.length?r.carriers.map((c,i)=>`<span class="tag t-${c}">${c==="日本郵便"?jpLabel(r):c}</span>`).join(""):`<span class="tag t-none">${esc(r.cnote||"記載なし")}</span>`;
-    const links=Object.entries(r.links).map(([k,u])=>`<a href="${u}" target="_blank" rel="noopener">${k}</a>`).join(" ・ ");
+    const links=`<div class="srcg">${Object.entries(r.links).map(([k,u])=>`<a href="${u}" target="_blank" rel="noopener">${k}</a>`).join("")}</div>`;
     const first=Object.values(r.links)[0];
     const tr=document.createElement("tr");
     tr.innerHTML=`<td class="addr"><span class="w">${r.ward==="区不明"?"新潟市":"新潟市"+r.ward}</span><span class="ad">${esc(r.addr.replace(r.ward,""))||"—"}${r.ll?`<button type="button" class="pin" data-pin="${r.id}" title="地図で見る" aria-label="地図で見る">📍</button>`:""}</span></td>
       <td class="shop"><a href="${first}" target="_blank" rel="noopener">${esc(r.shop)}</a><small>${esc(r.company)}</small></td>
       <td class="g">${r.genre}</td>
       <td class="src">${links}</td>
-      <td class="num">${r.tel?`<a class="tel" href="tel:${r.tel.replace(/[^0-9+]/g,"")}">${esc(r.tel)}</a>`:""}</td>
       <td><div class="carr">${tags}</div></td>
+      <td class="telc">${r.tel?`<a class="telbtn" href="tel:${r.tel.replace(/[^0-9+]/g,"")}" title="${esc(r.tel)}" aria-label="電話 ${esc(r.tel)}">℡</a>`:""}</td>
       <td class="mark">${r.cool?"○":""}</td>`;
     tb.appendChild(tr);
   });
