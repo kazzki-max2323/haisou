@@ -1,0 +1,77 @@
+riverus.thebase.in|RIVERUS|個人|中央区古町通7|
+persona0312.base.shop|Person-A（アイウェアサロン）|個人|中央区古町通5番町|
+atticofalice.theshop.jp|LIGHT CAVE ATTIC OF ALICE|株式会社ライトケイブ|中央区古町通4-565|
+piiiiece.thebase.in|used and vintage piiiiece|個人|中央区古町通2番町|
+akasyachi1.thebase.in|朱鯱 新潟駅前店|株式会社Z.O.L.|中央区女池神明3-10-7|
+dabcoffee.thebase.in|dAb COFFEE STORE|個人|中央区水島町|
+pureoolong.base.shop|PURE OOLONG|個人|中央区本町通6 本町中央市場|
+fishon.theshop.jp|fishon|個人|中央区蒲原町|
+minatoseika.shop-pro.jp|港製菓|港製菓|東区臨港町3-4609-9|Y|C
+minatoinari.thebase.in|湊稲荷神社 授与品|湊稲荷神社|中央区稲荷町3482|
+dorainavanti.base.shop|dorainavanti|個人|中央区女池南3|
+nobutakurami.thebase.in|酒と肴のぶ おとなの宅ら味|個人|中央区古町通八番町|
+sewinniigata.base.shop|artworkstudio sew in|個人|東区東明5|
+npwonline.thebase.in|新潟プロレス公式オンラインショップ|株式会社シー・エス・シー|東区松園1-9-39|
+tniigata.thebase.in|新潟特撮上映会|個人|中央区沼垂西1|
+nroom.thebase.in|nroom|個人|東区太平3|Y
+takaiag.thebase.in|高井農園|個人|西区金巻|
+edamame02.base.shop|保苅農園枝豆ショップ|株式会社おまめ|西区黒鳥4996|Y
+honoto.thebase.in|本の音（ホノト）|個人|西区寺尾東2|
+sakaiwacoffe.thebase.in|さかいわ珈琲|個人|西区寺尾東2|
+tentkids.thebase.in|tent zakka&kids|個人|西区小針2|
+45cheesecake.base.shop|45cheesecake|スタジョーネ株式会社|西区黒鳥3758-3|
+fkblackbird.base.shop|farmer's kitchen BLACKBIRD|株式会社本間商事|西区黒鳥648-1|
+hshoney.base.shop|橋元養蜂園|株式会社橋元養蜂園|秋葉区小口205-1|
+niigata1rice.base.shop|米農家もさくの定期便|株式会社こめみのり|北区長戸呂495-1|
+k8783.thebase.in|木村生花店|有限会社木村生花店|江南区東船場3-2-6|
+niigatanosho.base.shop|新潟農商（BASE店）|株式会社新潟農商|秋葉区川口580-17|=taueuta
+kokonoyasai.official.ec|ここのやさい|株式会社ここのやさい|東区上木戸3-17-7|
+watago.buyshop.jp|新潟亀田 わたご酒店|わたご酒店|江南区（亀田）|
+kamedajima.theshop.jp|亀田縞 III P.K.C+|個人|中央区東堀通4|
+cinewind.thebase.in|シネ・ウインド ネットショップ|有限会社新潟市民映画館|中央区八千代|
+muffin7bell.base.shop|Muffin Bell|マフィンベル|秋葉区中沢町16-32|
+fshinbo.thebase.in|ふとんの新保|株式会社ふとんの新保|秋葉区新津本町2-10-27|
+vintagecolor.base.shop|vintage shop colorful|個人|秋葉区小須戸|
+numanekoyaki.thebase.in|沼ネコストア|株式会社テラスオフィス|中央区沼垂東3-5-22|
+grapegarden.base.shop|フルーツランド 白根グレープガーデン|有限会社白根グレープガーデン|南区鷲ノ木新田573-1|
+youwa.theshop.jp|youwa|特定非営利活動法人ゆうーわ|南区助次右エ門組29-1|
+luxuoso.thebase.in|LUXUOSO COFFEE ROASTER|個人|中央区東堀通11番町|
+lifemag.thebase.in|Niigata Interview Magazine|個人|西蒲区和納2|
+rucoto.base.shop|rucoto|個人|東区松島3|C
+magokoromura.thebase.in|稲作専門農家 まごころ村|個人|西蒲区馬堀|
+eyamaga.thebase.in|新潟ボイセンベリー生産組合|新潟ボイセンベリー生産組合|西蒲区松野尾4894|
+iwasakishoku.base.shop|岩﨑食品|岩﨑食品|西蒲区松野尾13|
+komekobo.base.shop|米工房いわむろ|有限会社米工房いわむろ|西蒲区橋本848-2|
+arurunnoumi.shop-pro.jp|あるるんの海|新潟中央水産市場株式会社|中央区万代島2-2|Y|C
+sakana-bandai.shop-pro.jp|万代島鮮魚センター|新潟中央水産市場株式会社|中央区万代島|Y|C
+ntb.shop-pro.jp|新潟Tシャツ委員会|株式会社刷屋|中央区和合町2-4-9|YJ
+souzaburou.shop-pro.jp|イカ屋荘三郎|株式会社辰正丸|中央区稲荷町3615|Y|C
+h03tr.shop-pro.jp|hickory03travelers|合同会社アレコレ|中央区古町通三番町556|Y
+fukushinomise.shop-pro.jp|福祉の店 パレット|社会福祉法人新潟県社会福祉協議会|中央区上所|J
+embellir.shop-pro.jp|アンベリール（医療用ウィッグ）|株式会社セラヴィ|中央区大島108-1|Y
+storeroom.shop-pro.jp|store room online shop|株式会社ライフウェアーズアンド…|中央区上大川前通7番町1237-1|Y
+g-zero.shop-pro.jp|るちゃどぉるネット（ドール通販）|るちゃどぉる|中央区沼垂西1-2-23|YS
+ryoei-inc.shop-pro.jp|アートビークルー 良栄部門|株式会社アートビークルー|東区豊2-1-14|YS
+eguchi-ya.shop-pro.jp|農業資材の江口屋|株式会社江口屋|東区江南1-8-13|Y
+kohiru.shop-pro.jp|kohiru kobo|有限会社かいの|西区鳥原235|Y
+finchandec.shop-pro.jp|フィンチアンドホーム|株式会社フィンチアンドホーム|西区東青山1-27-2|Y
+kojiseika.shop-pro.jp|コージ製靴|株式会社コージ製靴|西区鳥原新田370-1|YS
+niigata-matsuya.shop-pro.jp|新潟まつや WEB-SHOP|まつや株式会社|北区葛塚3497-2|Y|=niigata-matuya
+anacpniigata.shop-pro.jp|ANAクラウンプラザホテル新潟 オンライン|株式会社ホテル新潟|中央区万代5-11-20|YJ|C|=anacpngt
+seihyo.shop-pro.jp|セイヒョー オンラインショップ|株式会社セイヒョー|北区木崎下山1785|Y|C
+oguroshuzo-sake.shop-pro.jp|新潟一粒酒造|株式会社新潟一粒酒造|北区嘉山1-6-1|YS|C
+murayamakennzi.shop-pro.jp|村山健次商店|有限会社村山健次商店|江南区船戸山3-10-11|S|C
+bean.shop-pro.jp|アクティブビーンズ|アクティブビーンズ株式会社|秋葉区荻野町9-14|Y
+fruitdome.shop-pro.jp|フルーツ童夢ショップ|個人|南区清水|Y
+irisawa-seimen.shop-pro.jp|入澤製麺 オンラインショップ|入澤製麺株式会社|南区月潟273-1|Y|C
+an-foods.shop-pro.jp|あんフーズ新潟 オンラインショップ|株式会社あんフーズ新潟|江南区曙町4-3-6|YS
+tsubasan.shop-pro.jp|燕三tsubasan 越後もちぶた|株式会社マツイフーズ|西蒲区上小吉651-1|Y|C
+tity.ocnk.net|セレクトショップ TITY|有限会社エア|中央区古町通5番町584|YS
+horishu.raku-uru.jp|堀周商店 WEBショップ|有限会社堀周商店|南区新飯田834|Y
+erieballoon.stores.jp|ERIE BALLOON|個人|中央区西堀通3|
+huskygelato.stores.jp|HUSKY GELATO|株式会社ロストアンドファウンド|中央区白山浦1-236-9|Y|C
+kitanoyasp-bb.stores.jp|野球工房 北野屋スポーツ|株式会社北野屋スポーツ|中央区上所上2-1-15|
+petitpas5500.stores.jp|Petitpas シフォンケーキ|個人|東区東中島2|
+akatsukashuraku.stores.jp|太田農園（赤塚集落）|melON株式会社|西区神山138|
+letablier.stores.jp|Le Tablier|個人|江南区天野2|
+satonashien.stores.jp|佐藤梨園|個人|江南区二本木2|

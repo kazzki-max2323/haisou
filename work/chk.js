@@ -1,0 +1,10 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1280,height:900}});
+const errs=[];p.on('pageerror',e=>errs.push(e.message));p.on('console',m=>{if(m.type()==='error')errs.push(m.text())});
+await p.goto('file://'+process.cwd()+'/niigata-shops.html');await p.waitForTimeout(800);
+console.log(await p.evaluate(()=>document.getElementById('count').textContent+' | '+document.getElementById('wardline').textContent+' | known '+document.getElementById('f-known').textContent+' fee '+document.getElementById('f-cool').textContent));
+console.log(await p.evaluate(()=>[...document.querySelectorAll('#tb tr')].slice(0,4).map(t=>t.innerText.replace(/\s+/g,' ')).join('\n')));
+await p.screenshot({path:'shot.png'});
+const m=await b.newPage({viewport:{width:390,height:800}});await m.goto('file://'+process.cwd()+'/niigata-shops.html');await m.waitForTimeout(500);
+console.log('mobile overflow',await m.evaluate(()=>document.documentElement.scrollWidth));
+console.log('errs',errs);await b.close()})();
