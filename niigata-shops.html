@@ -66,6 +66,28 @@ button.btn.clearbtn:hover:not(:disabled){background:#b93c0b;border-color:#b93c0b
 button.btn.clearbtn:disabled{background:transparent;border-color:var(--line);color:var(--muted);font-weight:400;cursor:default}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) button.btn.clearbtn:not(:disabled){background:#ff7a45;border-color:#ff7a45;color:#1a0f08}}
 :root[data-theme="dark"] button.btn.clearbtn:not(:disabled){background:#ff7a45;border-color:#ff7a45;color:#1a0f08}
+
+.ckbox{width:min(820px,100%)}
+.ckbox .ck-head h1{font-family:var(--f-display);font-weight:900;font-size:clamp(19px,4vw,24px);margin:2px 0 0;line-height:1.3}
+.ckbox .ck-head p{margin:6px 0 0;color:var(--muted)}
+.ckbox .eyebrow{font-size:11px}
+.ckbox .panel{margin-top:12px;padding:12px 14px}
+.ckbox .panel h2{font-size:15px;margin:0 0 6px}
+.ckbox .panel ul{margin:6px 0 0;padding-left:1.2em}.ckbox .panel li{margin:3px 0}
+.ckbox .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.ckbox .fact{border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.ckbox .fact b{display:block;font-family:var(--f-num);font-size:20px;line-height:1.2}
+.ckbox .fact span{font-size:12px;color:var(--muted)}
+.ckbox .flow{display:grid;gap:6px;counter-reset:s;margin:8px 0 0;padding:0;list-style:none}
+.ckbox .flow li{position:relative;padding:6px 10px 6px 40px;border:1px solid var(--line);border-radius:10px;margin:0}
+.ckbox .flow li::before{counter-increment:s;content:counter(s);position:absolute;left:10px;top:7px;width:22px;height:22px;border-radius:50%;background:var(--c-yamato);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ckbox .key{border-left:4px solid var(--c-yamato);background:var(--accent-soft)}
+.ckbox .note{font-size:12px;color:var(--muted)}
+.ckbox table{border-collapse:collapse;width:100%;font-size:13px}
+.ckbox th,.ckbox td{border-bottom:1px solid var(--line);padding:5px 4px;text-align:left;vertical-align:top}
+.ckbox th{width:7.5em;color:var(--muted);font-weight:600}
+.ckbox .src li{font-size:12px}
+.memo-link button{font:inherit;cursor:pointer;color:var(--accent);display:inline-block;padding:6px 12px;border:1px solid var(--accent);border-radius:8px;font-size:13px;font-weight:600;background:var(--accent-soft)}
 .bar .n{font-family:var(--f-num);font-variant-numeric:tabular-nums;color:var(--muted);text-align:right;font-size:12px}
 .note{color:var(--muted);font-size:12px;margin:10px 0 0}
 .controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
@@ -117,7 +139,89 @@ footer{color:var(--muted);font-size:12px;display:grid;gap:4px}
   <div class="eyebrow">新潟市8区 × 楽天・Yahoo!・BASE・STORES・カラーミー・自社サイト・新潟直送計画・ガタ市・ふるさと納税・食べチョク・ポケマル ほか ／ 2026年10月25日調べ</div>
   <h1>新潟市EC事業者リスト</h1>
   <p>新潟市内に所在地を置いてネット通販をしている事業者<span id="h-total"></span>件を、住所順（中央区→北区→東区→江南区→秋葉区→南区→西区→西蒲区、区の中は町名順）に並べました。住所は各ショップが特定商取引法表記・会社概要に載せているものを番地・建物名まで転記しています。各モールの会社概要・特定商取引法表記で所在地を確認したものだけを載せています。配送会社が書かれていないお店も「記載なし」として含めています。</p>
-  <p class="memo-link"><a href="niigata-chokuso.html">📦 新潟直送計画まとめ（ヤマトとの連携・出店の費用・営業のポイント）→</a></p>
+  <p class="memo-link"><button type="button" id="ckopen">📦 新潟直送計画まとめ（ヤマトとの連携・出店の費用・営業のポイント）</button></p>
+<template id="cktpl"><div class="ck-head">
+    <div class="eyebrow">取引先メモ ／ 2026年11月7日調べ</div>
+    <h1>新潟直送計画まとめ</h1>
+    <p>新潟県内最大級の産地直送型のお取り寄せ・ギフト通販サイト。各店舗からヤマト運輸の産直システムで発送する仕組みで、リストのうち301件がここで販売しています。</p>
+  </div>
+
+  <section class="panel">
+    <h2>ひと目でわかる数字</h2>
+    <div class="facts">
+      <div class="fact"><b>1,032</b><span>掲載店舗（サイト表示）</span></div>
+      <div class="fact"><b>2,379</b><span>掲載商品（サイト表示）</span></div>
+      <div class="fact"><b>301</b><span>リスト内で直送計画に出店（新潟市内）</span></div>
+      <div class="fact"><b>約5万件</b><span>年間発送（2019年・当時約400店）</span></div>
+    </div>
+    <p class="note">2019年の数字：流通額2億3,000万円（前年比+35%）、発送先は県外が約95%（うち関東が約44%）、用途は自家用約50%・ギフト約48%。今は店舗数が約2.5倍なので、発送件数はさらに多いと考えられます。</p>
+  </section>
+
+  <section class="panel">
+    <h2>運営会社</h2>
+    <table>
+      <tr><th>会社名</th><td>株式会社クーネルワーク（旧：合同会社直送計画）</td></tr>
+      <tr><th>所在地</th><td>新潟市西区小針3丁目37-30 樋口ビル15号（山形支店あり）</td></tr>
+      <tr><th>代表</th><td>代表取締役 谷 俊介</td></tr>
+      <tr><th>連絡先</th><td>出店の相談：025-378-0158／ngshop@ng-life.jp<br>購入者向け：customer@ng-life.jp（電話受付なし）</td></tr>
+      <tr><th>サイト</th><td>2011年に新潟で開始。2021年に山形直送計画、2026年10月に群馬直送計画を開始。新潟県・山形県の「県公式オンラインストア」に採択済み。</td></tr>
+      <tr><th>その他の事業</th><td>ブランディング支援、ECサイト制作（Shopify・Makeshop・カラーミーなど）</td></tr>
+    </table>
+  </section>
+
+  <section class="panel key">
+    <h2>ヤマトとの連携（いちばん大事なところ）</h2>
+    <p>運営会社が売り手として注文・入金・在庫・配送の管理をしますが、<b>発送の作業そのものはしていません</b>。配送ページの説明によると、次の流れです。</p>
+    <ol class="flow">
+      <li>お客さんが直送計画で注文する（価格は送料込み）</li>
+      <li>運営会社がヤマト運輸の「産直システム」で送り状の発行を頼み、生産店舗への集荷を依頼する</li>
+      <li>ヤマトのドライバーが各店舗に集荷に行く（店舗は伝票を書かない）</li>
+      <li>店舗からお客さんに直接届く。送り状番号は運営会社がお客さんに伝える</li>
+    </ol>
+    <ul>
+      <li>基本はヤマト運輸。一部の商品だけ日本郵便（ゆうパックなど）。</li>
+      <li>出品の条件に「ヤマト運輸の宅急便（60〜160サイズ）で発送できる商品」が入っている。</li>
+      <li>沖縄・離島には発送していない。</li>
+    </ul>
+    <p class="note">ヤマトのどのサービスを使っているかの名前は公開されていません。ヤマトグループには「Web出荷コントロールサービス（産直）」のように、受注データから集荷依頼まで自動でつながる仕組みがあり、こうしたものを使っていると考えられます（推測）。</p>
+  </section>
+
+  <section class="panel">
+    <h2>出店者の費用</h2>
+    <ul>
+      <li><b>料金の形</b>：成果報酬型（売れた分を払う形で、毎月の固定費はかからない）。<b>成果報酬の率は公開されていない</b>。</li>
+      <li><b>出品費用</b>：1商品あたり5万円（税別）。</li>
+      <li><b>トライアル出品枠（県公式ストア）</b>：1事業者1商品まで出品費用が無料。2商品目からは5万円。申込は2027年3月末まで。</li>
+      <li><b>任せられること</b>：取材・撮影・ページ作り・お客さん対応・代金回収・集荷と配送の管理。楽天・Yahoo!ショッピング・メルカリShops・LINEギフトにもまとめて出品。</li>
+      <li><b>出品の条件</b>：新潟県内の事業者が自分で作った・企画した商品であること（仕入れ品は不可）、出荷場所が新潟県内、ヤマトの宅急便で送れること、写真などの素材を用意できること。</li>
+    </ul>
+    <p class="note">手数料の率は、運営会社の資料ダウンロード・無料個別相談、または新潟県 産業労働部 産業政策課（025-280-5234）で確認できる可能性があります。</p>
+  </section>
+
+  <section class="panel">
+    <h2>営業から見たポイント</h2>
+    <ul>
+      <li><b>運賃の契約は運営会社が持っている可能性が高い</b>。直送計画で売れた分の配送を、店舗ひとつずつに切り替えてもらうのは難しい。</li>
+      <li><b>運営会社1社と話せば、1,000店分の出荷にまとめて関われる</b>。山形・群馬にも広がっている。</li>
+      <li>店舗側は、直送計画以外の出荷（自社サイト、店頭からの発送、贈答品など）を自分で契約していることが多いはず。<b>店舗にはそちらの出荷で提案する余地</b>がある。</li>
+      <li>県公式ストアに採択されたので、県内の生産者がこれからも集まりやすい。ヤマト前提の仕組みが広がる方向。</li>
+      <li>リスト内の301件の内訳：中央区81・江南区46・西区40・西蒲区39・南区36・東区24・秋葉区18・北区17。ジャンルは食品・ギフト98、米・農産物82、菓子・飲料46、農園・花・園芸27など。このうち202件は直送計画だけで販売している。</li>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <h2>出典</h2>
+    <ul class="src">
+      <li>新潟直送計画「配送・返品について」「特定商取引法に関する表示」（shop.ng-life.jp、2026年11月7日確認）</li>
+      <li><a href="https://chokuso.cunelwork.co.jp/">直送計画 出店案内（株式会社クーネルワーク）</a>／同お知らせ「新潟直送計画に無償で出店できる『トライアル出品枠』の提供を開始します」（2025年8月6日）</li>
+      <li><a href="https://www.pref.niigata.lg.jp/uploaded/life/764707_2406763_misc.pdf">新潟県 報道資料（新潟県公式オンラインストア）</a></li>
+      <li><a href="https://www500.pref.yamagata.jp/documents/52180/20260501press_tirasi.pdf">山形県 出品案内チラシ（2026年5月）</a></li>
+      <li><a href="https://ecnomikata.com/ecnews/25085/">ECのミカタ：新潟直送計画が流通額で前年比35%成長</a>／<a href="https://ecnomikata.com/ecnews/21481/">ECのミカタ：クーネルワークの取り組み</a></li>
+      <li><a href="https://www.logi-today.com/1010304">LOGISTICS TODAY：直送計画の記事</a></li>
+      <li><a href="https://docs.channel.io/helprecore/ja/articles/ヤマト自動集荷連携ドキュメント--d0e7382e">ReCORE：ヤマト自動集荷連携（Web出荷コントロールサービス）の説明</a></li>
+    </ul>
+  </section>
+</template>
 </header>
 
 <section class="summary" aria-label="集計">
@@ -314,6 +418,18 @@ function cOpen(k,btn){
   cm.hidden=false; box.focus();
 }
 document.getElementById("bars").addEventListener("click",e=>{const b=e.target.closest(".cbtn");if(b)cOpen(b.dataset.k,b);});
+
+// ---- 新潟直送計画まとめポップアップ ----
+const ckm=document.createElement("div");ckm.className="cmodal";ckm.hidden=true;ckm.setAttribute("role","dialog");ckm.setAttribute("aria-modal","true");ckm.setAttribute("aria-label","新潟直送計画まとめ");
+ckm.innerHTML='<div class="cbox ckbox" tabindex="-1"><h3 style="justify-content:flex-end;margin:0"><a href="niigata-chokuso.html" target="_blank" rel="noopener" style="font-size:12px;font-weight:400;margin-right:auto">別ページで開く</a><button type="button" class="cx" aria-label="閉じる">×</button></h3><div class="ckbody"></div><div class="cfoot"><button type="button" data-close="1">閉じる</button></div></div>';
+document.body.appendChild(ckm);
+ckm.querySelector(".ckbody").appendChild(document.getElementById("cktpl").content.cloneNode(true));
+ckm.querySelectorAll(".back").forEach(e=>e.remove());
+const ckClose=()=>{ckm.hidden=true;document.getElementById("ckopen").focus();};
+ckm.addEventListener("click",e=>{if(e.target===ckm)ckClose();});
+ckm.querySelector(".cx").onclick=ckClose;ckm.querySelector("[data-close]").onclick=ckClose;
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!ckm.hidden)ckClose();});
+document.getElementById("ckopen").addEventListener("click",()=>{ckm.hidden=false;const b=ckm.querySelector(".cbox");b.scrollTop=0;b.focus();});
 const wardSel=document.getElementById("ward");
 WARDS.forEach(w=>{const o=document.createElement("option");o.value=w;o.textContent=`${w}（${ROWS.filter(r=>r.ward===w).length}）`;wardSel.appendChild(o);});
 const chSel=document.getElementById("ch");
