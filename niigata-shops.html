@@ -93,6 +93,7 @@ button.btn.clearbtn:disabled{background:transparent;border-color:var(--line);col
 
 #mapbox{display:grid;gap:6px}
 #mapbox[hidden]{display:none}
+#landbtn[hidden],#landmsg[hidden]{display:none}
 #map{height:min(70vh,560px);border:1px solid var(--line);border-radius:12px;z-index:0}
 .maplegend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted)}
 .maplegend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
@@ -303,8 +304,9 @@ footer{color:var(--muted);font-size:12px;display:grid;gap:4px}
 <section aria-label="事業者一覧" style="display:grid;gap:10px">
   <div class="toolbar">
     <div class="count" id="count"></div>
-    <span style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" id="maptg" type="button" aria-expanded="false">🗺 地図で見る</button><button class="btn" id="copy" type="button">表示中の一覧をコピー（Excel貼り付け用）</button></span>
+    <span style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" id="landbtn" type="button" hidden>📱 横画面で見る</button><button class="btn" id="maptg" type="button" aria-expanded="false">🗺 地図で見る</button><button class="btn" id="copy" type="button">表示中の一覧をコピー（Excel貼り付け用）</button></span>
   </div>
+  <div id="landmsg" hidden style="font-size:13px;padding:8px 12px;border-radius:8px;background:var(--accent-soft);color:var(--ink)">スマホを横向きにしてね。回らないときは、コントロールセンターの「画面の向きのロック」を解除してから。</div>
   <div id="mapbox" hidden><div id="map"></div><div class="maplegend" id="maplegend"></div><div style="font-size:12px;color:var(--muted)">点を押すと店の情報が出る。位置は国土地理院の住所検索で付けた目安（番地まで合わない店もある）。区不明の店と位置が取れなかった店は出ない。絞り込みに合わせて点も変わる。</div></div>
   <div class="tablebox">
     <table>
@@ -482,6 +484,23 @@ document.getElementById("tb").addEventListener("click",e=>{const b=e.target.clos
   const box=document.getElementById("mapbox"); if(box.hidden) openMap();
   box.scrollIntoView({behavior:"smooth",block:"start"});
   setTimeout(()=>{const m=MK[b.dataset.pin]; if(m){MAP.setView(m.getLatLng(),17);m.openPopup();}},350);});
+
+// ---- 横画面で見る（スマホのみ） ----
+(()=>{const btn=document.getElementById("landbtn"),msg=document.getElementById("landmsg");
+  const touch=matchMedia("(pointer:coarse)").matches; if(!touch) return; btn.hidden=false;
+  const canLock=!!(document.documentElement.requestFullscreen&&screen.orientation&&screen.orientation.lock);
+  const isFs=()=>!!document.fullscreenElement;
+  const sync=()=>{btn.textContent=isFs()?"✕ 全画面を終わる":"📱 横画面で見る";};
+  document.addEventListener("fullscreenchange",()=>{if(!isFs()&&screen.orientation&&screen.orientation.unlock){try{screen.orientation.unlock()}catch(e){}}sync();});
+  const showMsg=()=>{msg.hidden=false;clearTimeout(showMsg.t);showMsg.t=setTimeout(()=>msg.hidden=true,8000);};
+  btn.addEventListener("click",async()=>{
+    if(isFs()){document.exitFullscreen();return;}
+    if(!canLock){showMsg();return;}
+    try{await document.documentElement.requestFullscreen();await screen.orientation.lock("landscape");}
+    catch(e){if(isFs()) document.exitFullscreen(); showMsg();}
+  });
+  matchMedia("(orientation: landscape)").addEventListener("change",e=>{if(e.matches) msg.hidden=true;});
+})();
 const wardSel=document.getElementById("ward");
 WARDS.forEach(w=>{const o=document.createElement("option");o.value=w;o.textContent=`${w}（${ROWS.filter(r=>r.ward===w).length}）`;wardSel.appendChild(o);});
 const chSel=document.getElementById("ch");
