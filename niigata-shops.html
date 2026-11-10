@@ -93,6 +93,9 @@ button.btn.clearbtn:disabled{background:transparent;border-color:var(--line);col
 
 #mapbox{display:grid;gap:6px}
 #mapbox[hidden]{display:none}
+button.btn.cktg{align-self:end;white-space:nowrap}
+button.btn.cktg[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+button.btn.cktg[aria-pressed="false"]{color:var(--muted);border-color:var(--line);border-style:dashed}
 #landbtn[hidden],#landmsg[hidden]{display:none}
 #map{height:min(70vh,560px);border:1px solid var(--line);border-radius:12px;z-index:0}
 .maplegend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted)}
@@ -293,6 +296,7 @@ footer{color:var(--muted);font-size:12px;display:grid;gap:4px}
     <label for="ch">出店先
       <select id="ch"><option value="">すべて</option><option value="multi">2つ以上で販売</option></select>
     </label>
+    <button type="button" class="btn cktg" id="cktg" aria-pressed="true" title="新潟直送計画だけで販売している店を表示するかどうか">新潟直送計画だけの店 <b>ON</b></button>
     <button type="button" class="btn clearbtn" id="clearall" disabled>✕ 絞り込みをクリア</button>
     <div>
       <div style="font-size:12px;color:var(--muted);margin-bottom:4px">ジャンル</div>
@@ -342,7 +346,7 @@ const CARRIERS = ["ヤマト","日本郵便","佐川","西濃","福山"];
 const COLOR = {"ヤマト":"var(--c-yamato)","日本郵便":"var(--c-jp)","佐川":"var(--c-sagawa)","西濃":"var(--c-seino)","福山":"var(--c-fukuyama)"};
 const CHS = ["楽天","Yahoo!","Amazon","au PAY","BASE","STORES","カラーミー","おちゃのこ","楽楽うる","自社サイト","ふるさと納税","食べチョク","ポケマル","新潟直送計画","ガタ市","ふるさとチョイス","ふるなび","さとふる","JAタウン","Shopify","Qoo10","Pinkoi","minne","Creema","会社HP"];
 const GENRES = [...new Set(ROWS.map(r=>r.genre))].sort((a,b)=>(a==="雑貨・その他")-(b==="雑貨・その他")||a.localeCompare(b,"ja"));
-const state = {q:"", addr:[], ward:"", carrier:"", ch:"", fee:"", genre:"", sort:{k:"addr", dir:"asc"}};
+const state = {ck:true, q:"", addr:[], ward:"", carrier:"", ch:"", fee:"", genre:"", sort:{k:"addr", dir:"asc"}};
 const yen = s => (s && /\d/.test(s)) ? parseInt(s.replace(/[^0-9]/g,""),10) : (s?0:null);
 const wo = Object.fromEntries(WARDS.map((w,i)=>[w,i]));
 
@@ -501,6 +505,13 @@ document.getElementById("tb").addEventListener("click",e=>{const b=e.target.clos
   });
   matchMedia("(orientation: landscape)").addEventListener("change",e=>{if(e.matches) msg.hidden=true;});
 })();
+
+// ---- 新潟直送計画だけの店 ON/OFF ----
+(()=>{const b=document.getElementById("cktg");
+  const set=v=>{state.ck=v;b.setAttribute("aria-pressed",String(v));b.innerHTML=`新潟直送計画だけの店 <b>${v?"ON":"OFF"}</b>`;try{localStorage.setItem("ckShow",v?"1":"0")}catch(e){}};
+  try{if(localStorage.getItem("ckShow")==="0") set(false);}catch(e){}
+  b.addEventListener("click",()=>{set(!state.ck);render();});
+})();
 const wardSel=document.getElementById("ward");
 WARDS.forEach(w=>{const o=document.createElement("option");o.value=w;o.textContent=`${w}（${ROWS.filter(r=>r.ward===w).length}）`;wardSel.appendChild(o);});
 const chSel=document.getElementById("ch");
@@ -535,6 +546,7 @@ document.querySelectorAll("th button").forEach(b=>b.addEventListener("click",()=
 
 function jpLabel(r){return "日本郵便"+({P:"（ゆうパック）",M:"（ゆうパケット等）",PM:"（ゆうパック・ゆうパケット等）"}[r.jp]||"");}
 function match(r,skipAddr){
+  if(!state.ck && state.ch!=="新潟直送計画" && r.ch.length===1 && r.ch[0]==="新潟直送計画") return false;
   if(!skipAddr&&state.addr.length){const s=normAddr(r.ward+r.addr); if(!state.addr.some(t=>s.includes(t))) return false;}
   if(state.q){const s=(r.shop+r.company+r.ward+r.addr).toLowerCase(); if(!s.includes(state.q.toLowerCase())) return false;}
   if(state.ward && r.ward!==state.ward) return false;
